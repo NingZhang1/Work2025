@@ -1,0 +1,6526 @@
+****************************************************************************
+*********** Iteractive Configuration Interaction with Selection  ***********
+     AUTHOR : NING ZHANG, PKU-CCME, 100871, ningzhangpku@foxmail.com        
+****************************************************************************
+
+
+
+**************************************
+*********** Print TaskInfo ***********
+**************************************
+
+ Spintwo / Irrep / nStates / OuterWeight / Weight
+____________________________________
+        4/      1/        1/     1.000000     1.00000000 
+____________________________________
+
+
+**************************************
+***************  END  ****************
+**************************************
+
+
+
+******** Print Parameter ******* 
+
+********** Basic Info **********
+
+Number of correlated electrons = 18
+Number of correlated orbitals  = 170
+Selection Algorithm            = SiCI with iCI Criterion
+Diagonization Algorithm        = LOBPCG
+Initial Guess                  = CASCI
+Orbital Type                   = Input orbitals
+Connection Manager             = Automatic determination
+Perturbation                   = Default
+Relativity                     = Relativity -- Do not consider
+Reduced Density Matrix         = Do not calculate RDMs
+********** Cnotrol Info **********
+
+Similarity Control                           = 0.950000
+energy convergence tolerance for iCI (ETOL)  = 0.000000
+energy window for ivi roots (in Hartree)     = -10000000000.000000
+Cmin Schedule                (CMIN_SCHEDULE) = 1.5000e-05 9.0000e-06 
+
+**********  End  Parameter **********
+
+
+
+**************************************
+*********** Print FCI_INFO ***********
+**************************************
+
+ Spintwo / Irrep / nStates / 
+____________________________________
+        4/      1/        1/ ncfg : 1148201006283703615463208
+        4/      1/        1/ ncsf : 4814351228156905063259205120
+        4/      1/        1/ ndet : 11081454054985741991538272256
+Warning: the number of correlated electrons is read from FCIDUMP, not determined by the input file!
+____________________________________
+
+
+**************************************
+***************  END  ****************
+**************************************
+
+
+
+********** Calculation Procedure **********
+
+
+The number of steps of calculation procedure = 7
+
+Step   0 : iCI_Initialization with CASCI and cutoff =       1.500e-05
+Step   1 : Selection_NonRelativistic_iCI_Criterion with Cmin =       1.000e-03
+Step   2 : Selection_NonRelativistic_iCI_Criterion with Cmin =       1.500e-05
+Step   3 : Perturbation Correction -- ENPT(2) Non-Relativistic 
+Step   4 : Selection_NonRelativistic_iCI_Criterion with Cmin =       9.000e-06
+Step   5 : Perturbation Correction -- ENPT(2) Non-Relativistic 
+Step   6 : PostProcess -- WriteOut .enedat File
+
+
+*******************************************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.81 /     0.03 / 59.37
+Initialize Time   :     0.08 /     0.00 / 59.78
+Calculation Time  :     1.30 /     0.02 / 58.42
+Finalize Time     :     0.43 /     0.01 / 62.55
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin MatrixDiag ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     9.17 /     0.18 / 50.90
+Initialize Time   :     0.04 /     0.00 / 52.39
+Calculation Time  :     8.73 /     0.16 / 54.55
+Finalize Time     :     0.39 /     0.02 / 20.21
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.79 /     0.16 / 49.35
+Initialize Time   :     0.09 /     0.00 / 78.54
+Calculation Time  :     7.30 /     0.14 / 53.42
+Finalize Time     :     0.40 /     0.02 / 19.98
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.77 /     0.16 / 49.37
+Initialize Time   :     0.07 /     0.00 / 64.86
+Calculation Time  :     7.29 /     0.14 / 53.45
+Finalize Time     :     0.41 /     0.02 / 20.63
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.79 /     0.16 / 49.31
+Initialize Time   :     0.07 /     0.00 / 57.62
+Calculation Time  :     7.31 /     0.14 / 53.52
+Finalize Time     :     0.40 /     0.02 / 19.84
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.73 /     0.16 / 49.43
+Initialize Time   :     0.06 /     0.00 / 54.28
+Calculation Time  :     7.25 /     0.14 / 53.54
+Finalize Time     :     0.40 /     0.02 / 20.16
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.73 /     0.16 / 49.36
+Initialize Time   :     0.07 /     0.00 / 60.06
+Calculation Time  :     7.26 /     0.14 / 53.55
+Finalize Time     :     0.40 /     0.02 / 20.19
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.72 /     0.16 / 49.02
+Initialize Time   :     0.07 /     0.00 / 60.32
+Calculation Time  :     7.23 /     0.13 / 53.67
+Finalize Time     :     0.40 /     0.02 / 18.54
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.72 /     0.16 / 49.39
+Initialize Time   :     0.08 /     0.00 / 69.31
+Calculation Time  :     7.24 /     0.14 / 53.57
+Finalize Time     :     0.40 /     0.02 / 20.03
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.73 /     0.16 / 49.41
+Initialize Time   :     0.07 /     0.00 / 61.09
+Calculation Time  :     7.25 /     0.14 / 53.58
+Finalize Time     :     0.40 /     0.02 / 20.07
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.72 /     0.16 / 49.54
+Initialize Time   :     0.08 /     0.00 / 67.57
+Calculation Time  :     7.24 /     0.13 / 53.84
+Finalize Time     :     0.40 /     0.02 / 19.86
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.73 /     0.16 / 49.35
+Initialize Time   :     0.08 /     0.00 / 67.96
+Calculation Time  :     7.25 /     0.14 / 53.64
+Finalize Time     :     0.39 /     0.02 / 19.32
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.77 /     0.16 / 49.19
+Initialize Time   :     0.07 /     0.00 / 59.90
+Calculation Time  :     7.30 /     0.14 / 53.48
+Finalize Time     :     0.40 /     0.02 / 19.76
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.71 /     0.16 / 49.07
+Initialize Time   :     0.07 /     0.00 / 60.86
+Calculation Time  :     7.24 /     0.14 / 53.47
+Finalize Time     :     0.40 /     0.02 / 19.48
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.73 /     0.16 / 49.43
+Initialize Time   :     0.07 /     0.00 / 59.74
+Calculation Time  :     7.25 /     0.13 / 53.94
+Finalize Time     :     0.40 /     0.02 / 19.29
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.72 /     0.16 / 49.40
+Initialize Time   :     0.07 /     0.00 / 61.15
+Calculation Time  :     7.24 /     0.13 / 53.81
+Finalize Time     :     0.40 /     0.02 / 19.48
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.72 /     0.16 / 49.29
+Initialize Time   :     0.07 /     0.00 / 62.11
+Calculation Time  :     7.25 /     0.13 / 53.77
+Finalize Time     :     0.40 /     0.02 / 19.41
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.68 /     0.16 / 49.19
+Initialize Time   :     0.08 /     0.00 / 64.39
+Calculation Time  :     7.20 /     0.13 / 53.78
+Finalize Time     :     0.40 /     0.02 / 19.10
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.70 /     0.16 / 49.46
+Initialize Time   :     0.08 /     0.00 / 70.04
+Calculation Time  :     7.22 /     0.13 / 53.93
+Finalize Time     :     0.40 /     0.02 / 19.39
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.74 /     0.16 / 49.25
+Initialize Time   :     0.07 /     0.00 / 60.40
+Calculation Time  :     7.26 /     0.13 / 53.82
+Finalize Time     :     0.40 /     0.02 / 18.99
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.75 /     0.16 / 47.38
+Initialize Time   :     0.10 /     0.00 / 59.97
+Calculation Time  :     7.24 /     0.13 / 53.86
+Finalize Time     :     0.40 /     0.03 / 14.57
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.70 /     0.16 / 47.43
+Initialize Time   :     0.09 /     0.00 / 63.63
+Calculation Time  :     7.20 /     0.13 / 53.64
+Finalize Time     :     0.40 /     0.03 / 15.01
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.69 /     0.16 / 47.32
+Initialize Time   :     0.08 /     0.00 / 58.93
+Calculation Time  :     7.19 /     0.13 / 53.54
+Finalize Time     :     0.41 /     0.03 / 15.29
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.70 /     0.16 / 46.93
+Initialize Time   :     0.09 /     0.00 / 66.03
+Calculation Time  :     7.19 /     0.14 / 53.03
+Finalize Time     :     0.42 /     0.03 / 15.50
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.73 /     0.16 / 47.62
+Initialize Time   :     0.08 /     0.00 / 60.30
+Calculation Time  :     7.21 /     0.13 / 53.57
+Finalize Time     :     0.43 /     0.03 / 16.31
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.64 /     0.16 / 47.19
+Initialize Time   :     0.09 /     0.00 / 68.92
+Calculation Time  :     7.14 /     0.13 / 53.24
+Finalize Time     :     0.40 /     0.03 / 15.12
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.65 /     0.16 / 47.28
+Initialize Time   :     0.09 /     0.00 / 66.54
+Calculation Time  :     7.15 /     0.13 / 53.72
+Finalize Time     :     0.41 /     0.03 / 15.02
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.73 /     0.16 / 46.99
+Initialize Time   :     0.08 /     0.00 / 59.85
+Calculation Time  :     7.23 /     0.14 / 53.37
+Finalize Time     :     0.41 /     0.03 / 14.85
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.66 /     0.16 / 46.90
+Initialize Time   :     0.08 /     0.00 / 58.70
+Calculation Time  :     7.16 /     0.13 / 53.10
+Finalize Time     :     0.41 /     0.03 / 15.14
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.62 /     0.16 / 47.27
+Initialize Time   :     0.09 /     0.00 / 68.30
+Calculation Time  :     7.11 /     0.13 / 53.47
+Finalize Time     :     0.42 /     0.03 / 15.65
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.64 /     0.16 / 47.17
+Initialize Time   :     0.08 /     0.00 / 61.80
+Calculation Time  :     7.13 /     0.13 / 53.52
+Finalize Time     :     0.42 /     0.03 / 15.31
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.64 /     0.16 / 47.69
+Initialize Time   :     0.08 /     0.00 / 58.53
+Calculation Time  :     7.14 /     0.13 / 53.96
+Finalize Time     :     0.41 /     0.03 / 15.48
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.60 /     0.16 / 46.62
+Initialize Time   :     0.09 /     0.00 / 66.10
+Calculation Time  :     7.10 /     0.13 / 53.19
+Finalize Time     :     0.41 /     0.03 / 14.58
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.59 /     0.15 / 49.41
+Initialize Time   :     0.07 /     0.00 / 71.40
+Calculation Time  :     7.11 /     0.13 / 53.50
+Finalize Time     :     0.41 /     0.02 / 20.83
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.62 /     0.15 / 49.51
+Initialize Time   :     0.06 /     0.00 / 59.73
+Calculation Time  :     7.15 /     0.13 / 53.71
+Finalize Time     :     0.41 /     0.02 / 20.77
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.56 /     0.15 / 49.19
+Initialize Time   :     0.07 /     0.00 / 69.31
+Calculation Time  :     7.09 /     0.13 / 53.23
+Finalize Time     :     0.40 /     0.02 / 20.58
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.55 /     0.15 / 49.36
+Initialize Time   :     0.07 /     0.00 / 69.96
+Calculation Time  :     7.08 /     0.13 / 53.43
+Finalize Time     :     0.39 /     0.02 / 20.10
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.58 /     0.15 / 49.19
+Initialize Time   :     0.06 /     0.00 / 57.64
+Calculation Time  :     7.13 /     0.13 / 53.38
+Finalize Time     :     0.39 /     0.02 / 20.05
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.58 /     0.15 / 49.17
+Initialize Time   :     0.06 /     0.00 / 58.99
+Calculation Time  :     7.11 /     0.13 / 53.44
+Finalize Time     :     0.41 /     0.02 / 20.45
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.55 /     0.15 / 49.08
+Initialize Time   :     0.07 /     0.00 / 65.48
+Calculation Time  :     7.08 /     0.13 / 53.16
+Finalize Time     :     0.39 /     0.02 / 19.97
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.53 /     0.15 / 49.15
+Initialize Time   :     0.07 /     0.00 / 67.65
+Calculation Time  :     7.06 /     0.13 / 53.21
+Finalize Time     :     0.39 /     0.02 / 20.05
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.58 /     0.15 / 49.28
+Initialize Time   :     0.06 /     0.00 / 58.10
+Calculation Time  :     7.07 /     0.13 / 53.24
+Finalize Time     :     0.43 /     0.02 / 21.57
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.57 /     0.15 / 49.12
+Initialize Time   :     0.07 /     0.00 / 67.08
+Calculation Time  :     7.09 /     0.13 / 53.26
+Finalize Time     :     0.41 /     0.02 / 20.60
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.52 /     0.15 / 49.03
+Initialize Time   :     0.06 /     0.00 / 57.89
+Calculation Time  :     7.06 /     0.13 / 53.29
+Finalize Time     :     0.40 /     0.02 / 20.18
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.51 /     0.15 / 49.11
+Initialize Time   :     0.07 /     0.00 / 67.36
+Calculation Time  :     7.04 /     0.13 / 53.31
+Finalize Time     :     0.40 /     0.02 / 20.21
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.95 /     0.16 / 48.74
+Initialize Time   :     0.07 /     0.00 / 65.52
+Calculation Time  :     7.47 /     0.14 / 52.36
+Finalize Time     :     0.41 /     0.02 / 21.22
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.64 /     0.15 / 49.45
+Initialize Time   :     0.07 /     0.00 / 67.46
+Calculation Time  :     7.17 /     0.13 / 53.43
+Finalize Time     :     0.40 /     0.02 / 20.79
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.61 /     0.15 / 49.27
+Initialize Time   :     0.06 /     0.00 / 58.30
+Calculation Time  :     7.15 /     0.13 / 53.40
+Finalize Time     :     0.40 /     0.02 / 20.50
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.60 /     0.15 / 49.05
+Initialize Time   :     0.07 /     0.00 / 62.39
+Calculation Time  :     7.12 /     0.13 / 53.01
+Finalize Time     :     0.40 /     0.02 / 20.56
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.58 /     0.16 / 48.89
+Initialize Time   :     0.07 /     0.00 / 66.89
+Calculation Time  :     7.10 /     0.13 / 52.86
+Finalize Time     :     0.40 /     0.02 / 20.40
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.57 /     0.15 / 48.90
+Initialize Time   :     0.06 /     0.00 / 57.86
+Calculation Time  :     7.11 /     0.13 / 52.94
+Finalize Time     :     0.39 /     0.02 / 20.08
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.59 /     0.15 / 49.39
+Initialize Time   :     0.06 /     0.00 / 58.38
+Calculation Time  :     7.10 /     0.13 / 53.35
+Finalize Time     :     0.41 /     0.02 / 21.01
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.56 /     0.15 / 49.22
+Initialize Time   :     0.07 /     0.00 / 68.20
+Calculation Time  :     7.09 /     0.13 / 53.24
+Finalize Time     :     0.40 /     0.02 / 20.67
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.59 /     0.15 / 49.05
+Initialize Time   :     0.06 /     0.00 / 57.34
+Calculation Time  :     7.13 /     0.13 / 53.10
+Finalize Time     :     0.39 /     0.02 / 20.13
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.58 /     0.15 / 49.23
+Initialize Time   :     0.07 /     0.00 / 66.65
+Calculation Time  :     7.10 /     0.13 / 53.29
+Finalize Time     :     0.40 /     0.02 / 20.44
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.56 /     0.15 / 48.90
+Initialize Time   :     0.07 /     0.00 / 67.74
+Calculation Time  :     7.08 /     0.13 / 52.82
+Finalize Time     :     0.41 /     0.02 / 21.01
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.53 /     0.15 / 48.89
+Initialize Time   :     0.06 /     0.00 / 57.72
+Calculation Time  :     7.07 /     0.13 / 53.12
+Finalize Time     :     0.40 /     0.02 / 20.17
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.56 /     0.15 / 49.13
+Initialize Time   :     0.07 /     0.00 / 64.10
+Calculation Time  :     7.10 /     0.13 / 53.25
+Finalize Time     :     0.39 /     0.02 / 20.07
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.55 /     0.15 / 48.78
+Initialize Time   :     0.07 /     0.00 / 69.23
+Calculation Time  :     7.06 /     0.13 / 52.95
+Finalize Time     :     0.41 /     0.02 / 20.11
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.56 /     0.16 / 48.32
+Initialize Time   :     0.06 /     0.00 / 58.30
+Calculation Time  :     7.08 /     0.13 / 53.01
+Finalize Time     :     0.41 /     0.02 / 18.78
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.55 /     0.15 / 49.01
+Initialize Time   :     0.07 /     0.00 / 62.71
+Calculation Time  :     7.08 /     0.13 / 53.08
+Finalize Time     :     0.40 /     0.02 / 20.50
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.53 /     0.15 / 49.17
+Initialize Time   :     0.07 /     0.00 / 67.81
+Calculation Time  :     7.06 /     0.13 / 53.43
+Finalize Time     :     0.40 /     0.02 / 20.06
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.52 /     0.15 / 49.01
+Initialize Time   :     0.06 /     0.00 / 58.73
+Calculation Time  :     7.05 /     0.13 / 53.24
+Finalize Time     :     0.40 /     0.02 / 20.07
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.50 /     0.16 / 48.18
+Initialize Time   :     0.07 /     0.00 / 68.65
+Calculation Time  :     7.02 /     0.13 / 53.26
+Finalize Time     :     0.41 /     0.02 / 18.00
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.54 /     0.16 / 48.58
+Initialize Time   :     0.07 /     0.00 / 62.53
+Calculation Time  :     7.05 /     0.13 / 52.69
+Finalize Time     :     0.41 /     0.02 / 20.28
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.50 /     0.15 / 48.87
+Initialize Time   :     0.07 /     0.00 / 68.67
+Calculation Time  :     7.02 /     0.13 / 53.33
+Finalize Time     :     0.40 /     0.02 / 19.28
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.56 /     0.16 / 48.72
+Initialize Time   :     0.06 /     0.00 / 57.36
+Calculation Time  :     7.10 /     0.13 / 53.32
+Finalize Time     :     0.40 /     0.02 / 19.16
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.58 /     0.16 / 48.02
+Initialize Time   :     0.10 /     0.00 / 63.73
+Calculation Time  :     7.07 /     0.13 / 53.13
+Finalize Time     :     0.41 /     0.02 / 17.69
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.60 /     0.16 / 48.71
+Initialize Time   :     0.08 /     0.00 / 66.33
+Calculation Time  :     7.11 /     0.13 / 53.20
+Finalize Time     :     0.41 /     0.02 / 19.41
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.57 /     0.16 / 47.88
+Initialize Time   :     0.07 /     0.00 / 65.80
+Calculation Time  :     7.09 /     0.13 / 53.19
+Finalize Time     :     0.40 /     0.02 / 16.89
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.70 /     0.16 / 47.33
+Initialize Time   :     0.07 /     0.00 / 61.71
+Calculation Time  :     7.20 /     0.13 / 53.56
+Finalize Time     :     0.42 /     0.03 / 15.53
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.64 /     0.16 / 47.14
+Initialize Time   :     0.08 /     0.00 / 62.21
+Calculation Time  :     7.15 /     0.13 / 53.46
+Finalize Time     :     0.41 /     0.03 / 15.18
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.61 /     0.16 / 46.79
+Initialize Time   :     0.08 /     0.00 / 61.81
+Calculation Time  :     7.12 /     0.13 / 53.21
+Finalize Time     :     0.40 /     0.03 / 14.57
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.67 /     0.17 / 46.15
+Initialize Time   :     0.08 /     0.00 / 59.52
+Calculation Time  :     7.17 /     0.14 / 52.31
+Finalize Time     :     0.41 /     0.03 / 14.78
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.71 /     0.17 / 46.40
+Initialize Time   :     0.09 /     0.00 / 68.43
+Calculation Time  :     7.20 /     0.14 / 53.20
+Finalize Time     :     0.41 /     0.03 / 13.91
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.76 /     0.16 / 47.33
+Initialize Time   :     0.08 /     0.00 / 63.70
+Calculation Time  :     7.25 /     0.13 / 53.77
+Finalize Time     :     0.41 /     0.03 / 14.76
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.63 /     0.16 / 46.83
+Initialize Time   :     0.07 /     0.00 / 57.18
+Calculation Time  :     7.13 /     0.13 / 53.50
+Finalize Time     :     0.41 /     0.03 / 14.45
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.73 /     0.16 / 47.27
+Initialize Time   :     0.08 /     0.00 / 62.73
+Calculation Time  :     7.24 /     0.13 / 53.68
+Finalize Time     :     0.41 /     0.03 / 14.99
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.64 /     0.16 / 46.90
+Initialize Time   :     0.08 /     0.00 / 64.89
+Calculation Time  :     7.15 /     0.13 / 53.56
+Finalize Time     :     0.40 /     0.03 / 14.24
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.68 /     0.17 / 46.45
+Initialize Time   :     0.08 /     0.00 / 65.17
+Calculation Time  :     7.19 /     0.13 / 53.29
+Finalize Time     :     0.41 /     0.03 / 14.07
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.65 /     0.16 / 46.92
+Initialize Time   :     0.08 /     0.00 / 64.90
+Calculation Time  :     7.16 /     0.13 / 53.31
+Finalize Time     :     0.41 /     0.03 / 14.94
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.63 /     0.16 / 46.40
+Initialize Time   :     0.08 /     0.00 / 65.20
+Calculation Time  :     7.14 /     0.13 / 53.20
+Finalize Time     :     0.41 /     0.03 / 14.15
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.64 /     0.16 / 46.64
+Initialize Time   :     0.08 /     0.00 / 64.34
+Calculation Time  :     7.15 /     0.13 / 53.23
+Finalize Time     :     0.41 /     0.03 / 14.54
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 49500
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     7.61 /     0.16 / 46.72
+Initialize Time   :     0.08 /     0.00 / 67.30
+Calculation Time  :     7.12 /     0.13 / 53.50
+Finalize Time     :     0.40 /     0.03 / 14.00
+
+
+*************** End Hmat_Construction ***************
+
+Iteration  :   82
+Initial    : 
+Init[   0] :  -9688.25074836
+Eigenvalue : 
+Eig[   0]  :  -9689.93756467
+   CpuTime :         658.730
+  WallTime :          13.523
+Residue    : 
+Res[   0]  :      0.00000037
+
+
+*************** End MatrixDiag ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     0.57 /     0.01 / 54.57
+Initialize Time   :     0.05 /     0.00 / 55.95
+Calculation Time  :     0.12 /     0.00 / 41.61
+Finalize Time     :     0.39 /     0.01 / 58.82
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin MatrixDiag ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.49 /     0.05 / 55.30
+Initialize Time   :     0.05 /     0.00 / 62.28
+Calculation Time  :     2.04 /     0.03 / 62.49
+Finalize Time     :     0.40 /     0.01 / 34.68
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.41 /     0.04 / 56.14
+Initialize Time   :     0.06 /     0.00 / 57.61
+Calculation Time  :     1.94 /     0.03 / 62.32
+Finalize Time     :     0.40 /     0.01 / 37.36
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.39 /     0.04 / 55.39
+Initialize Time   :     0.07 /     0.00 / 70.14
+Calculation Time  :     1.92 /     0.03 / 61.56
+Finalize Time     :     0.39 /     0.01 / 35.72
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.40 /     0.04 / 56.09
+Initialize Time   :     0.06 /     0.00 / 57.09
+Calculation Time  :     1.93 /     0.03 / 62.30
+Finalize Time     :     0.40 /     0.01 / 37.36
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.39 /     0.04 / 56.16
+Initialize Time   :     0.07 /     0.00 / 70.59
+Calculation Time  :     1.92 /     0.03 / 62.21
+Finalize Time     :     0.40 /     0.01 / 37.53
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.41 /     0.04 / 55.99
+Initialize Time   :     0.06 /     0.00 / 59.96
+Calculation Time  :     1.94 /     0.03 / 62.32
+Finalize Time     :     0.40 /     0.01 / 36.81
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.40 /     0.04 / 55.58
+Initialize Time   :     0.07 /     0.00 / 64.74
+Calculation Time  :     1.94 /     0.03 / 62.29
+Finalize Time     :     0.39 /     0.01 / 35.76
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.39 /     0.04 / 56.16
+Initialize Time   :     0.06 /     0.00 / 57.86
+Calculation Time  :     1.93 /     0.03 / 62.35
+Finalize Time     :     0.39 /     0.01 / 37.08
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.39 /     0.04 / 56.33
+Initialize Time   :     0.06 /     0.00 / 60.90
+Calculation Time  :     1.92 /     0.03 / 62.08
+Finalize Time     :     0.39 /     0.01 / 37.26
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.41 /     0.04 / 56.15
+Initialize Time   :     0.06 /     0.00 / 60.49
+Calculation Time  :     1.94 /     0.03 / 62.22
+Finalize Time     :     0.39 /     0.01 / 36.44
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.40 /     0.04 / 56.15
+Initialize Time   :     0.06 /     0.00 / 55.74
+Calculation Time  :     1.93 /     0.03 / 61.98
+Finalize Time     :     0.40 /     0.01 / 38.18
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.41 /     0.04 / 56.78
+Initialize Time   :     0.07 /     0.00 / 71.38
+Calculation Time  :     1.94 /     0.03 / 62.58
+Finalize Time     :     0.40 /     0.01 / 38.39
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.41 /     0.04 / 55.64
+Initialize Time   :     0.07 /     0.00 / 70.12
+Calculation Time  :     1.95 /     0.03 / 62.05
+Finalize Time     :     0.39 /     0.01 / 36.01
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.40 /     0.04 / 56.38
+Initialize Time   :     0.06 /     0.00 / 56.40
+Calculation Time  :     1.94 /     0.03 / 62.57
+Finalize Time     :     0.39 /     0.01 / 37.31
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.38 /     0.04 / 56.11
+Initialize Time   :     0.06 /     0.00 / 60.79
+Calculation Time  :     1.92 /     0.03 / 62.07
+Finalize Time     :     0.39 /     0.01 / 37.30
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.39 /     0.04 / 55.67
+Initialize Time   :     0.06 /     0.00 / 60.33
+Calculation Time  :     1.93 /     0.03 / 62.08
+Finalize Time     :     0.39 /     0.01 / 36.11
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.41 /     0.04 / 56.49
+Initialize Time   :     0.09 /     0.00 / 72.09
+Calculation Time  :     1.92 /     0.03 / 62.14
+Finalize Time     :     0.39 /     0.01 / 37.26
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.38 /     0.04 / 55.81
+Initialize Time   :     0.06 /     0.00 / 61.57
+Calculation Time  :     1.92 /     0.03 / 61.62
+Finalize Time     :     0.40 /     0.01 / 38.20
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.40 /     0.04 / 55.64
+Initialize Time   :     0.06 /     0.00 / 58.49
+Calculation Time  :     1.94 /     0.03 / 62.01
+Finalize Time     :     0.39 /     0.01 / 36.22
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.40 /     0.04 / 56.28
+Initialize Time   :     0.07 /     0.00 / 66.14
+Calculation Time  :     1.93 /     0.03 / 62.20
+Finalize Time     :     0.40 /     0.01 / 38.06
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.39 /     0.04 / 56.33
+Initialize Time   :     0.06 /     0.00 / 60.96
+Calculation Time  :     1.93 /     0.03 / 62.26
+Finalize Time     :     0.39 /     0.01 / 37.51
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.40 /     0.04 / 55.96
+Initialize Time   :     0.06 /     0.00 / 61.85
+Calculation Time  :     1.94 /     0.03 / 62.37
+Finalize Time     :     0.39 /     0.01 / 36.25
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.39 /     0.04 / 55.88
+Initialize Time   :     0.07 /     0.00 / 63.85
+Calculation Time  :     1.93 /     0.03 / 62.09
+Finalize Time     :     0.39 /     0.01 / 37.00
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.40 /     0.04 / 56.48
+Initialize Time   :     0.06 /     0.00 / 60.66
+Calculation Time  :     1.94 /     0.03 / 62.64
+Finalize Time     :     0.40 /     0.01 / 38.17
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.80 /     0.05 / 55.72
+Initialize Time   :     0.06 /     0.00 / 61.25
+Calculation Time  :     2.32 /     0.04 / 60.04
+Finalize Time     :     0.40 /     0.01 / 37.82
+
+
+*************** End Hmat_Construction ***************
+
+Iteration  :   24
+Initial    : 
+Init[   0] :  -9689.93756193
+Eigenvalue : 
+Eig[   0]  :  -9689.93756214
+   CpuTime :          63.520
+  WallTime :           1.133
+Residue    : 
+Res[   0]  :      0.00000157
+
+
+*************** End MatrixDiag ***************
+
+
+
+********** INITIAL GUESS INFO **********
+
+  spintwo | symmetry |  nstates |     ncsf |     ncfg |   energy 
+--------------------------------------------------------------------------------------
+        4 |        1 |        1 |    12750 |     3769 |  -9689.93756214, 
+
+
+****************************************
+
+
+
+******************************
+* Step   0 Finished          *
+* CpuTime  =         728.680 *
+* WallTime =          14.813 *
+******************************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     0.65 /     0.01 / 57.10
+Initialize Time   :     0.13 /     0.00 / 66.77
+Calculation Time  :     0.11 /     0.00 / 42.43
+Finalize Time     :     0.41 /     0.01 / 60.34
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin MatrixDiag ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.84 /     0.05 / 57.53
+Initialize Time   :     0.05 /     0.00 / 72.57
+Calculation Time  :     2.39 /     0.04 / 62.34
+Finalize Time     :     0.40 /     0.01 / 38.90
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.54 /     0.05 / 56.29
+Initialize Time   :     0.08 /     0.00 / 68.32
+Calculation Time  :     2.06 /     0.03 / 60.69
+Finalize Time     :     0.40 /     0.01 / 40.17
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.55 /     0.04 / 57.27
+Initialize Time   :     0.08 /     0.00 / 66.61
+Calculation Time  :     2.08 /     0.03 / 62.64
+Finalize Time     :     0.39 /     0.01 / 38.72
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 12750
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.52 /     0.04 / 56.94
+Initialize Time   :     0.07 /     0.00 / 60.14
+Calculation Time  :     2.05 /     0.03 / 61.94
+Finalize Time     :     0.40 /     0.01 / 40.23
+
+
+*************** End Hmat_Construction ***************
+
+Iteration  :    3
+Initial    : 
+Init[   0] :  -9689.93756214
+Eigenvalue : 
+Eig[   0]  :  -9689.93756214
+   CpuTime :          10.790
+  WallTime :           0.190
+Residue    : 
+Res[   0]  :      0.00000088
+
+
+*************** End MatrixDiag ***************
+
+
+
+*************** Begin Selection ***************
+
+Q_Space Dim       : 24034 
+Working Time      : cputime / walltime / effective core 
+Total Time        :   289.37 /     5.02 / 57.67
+Initialize Time   :     0.02 /     0.00 / 7.31
+Calculation Time  :   288.95 /     5.01 / 57.71
+Finalize Time     :     0.40 /     0.01 / 50.47
+
+
+*************** End Selection ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     0.71 /     0.01 / 53.90
+Initialize Time   :     0.17 /     0.00 / 63.41
+Calculation Time  :     0.09 /     0.00 / 34.80
+Finalize Time     :     0.44 /     0.01 / 56.10
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin MatrixDiag ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.73 /     0.09 / 51.84
+Initialize Time   :     0.07 /     0.00 / 60.10
+Calculation Time  :     4.22 /     0.07 / 60.44
+Finalize Time     :     0.43 /     0.02 / 21.29
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.09 /     0.08 / 52.86
+Initialize Time   :     0.11 /     0.00 / 61.43
+Calculation Time  :     3.57 /     0.06 / 58.62
+Finalize Time     :     0.40 /     0.01 / 27.37
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     3.98 /     0.07 / 53.13
+Initialize Time   :     0.09 /     0.00 / 62.09
+Calculation Time  :     3.47 /     0.06 / 59.96
+Finalize Time     :     0.40 /     0.02 / 25.73
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     3.91 /     0.08 / 52.02
+Initialize Time   :     0.09 /     0.00 / 64.08
+Calculation Time  :     3.42 /     0.06 / 58.27
+Finalize Time     :     0.40 /     0.02 / 26.66
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     3.94 /     0.07 / 53.43
+Initialize Time   :     0.10 /     0.00 / 61.88
+Calculation Time  :     3.43 /     0.06 / 59.59
+Finalize Time     :     0.40 /     0.01 / 27.57
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     3.96 /     0.08 / 52.38
+Initialize Time   :     0.09 /     0.00 / 62.28
+Calculation Time  :     3.47 /     0.06 / 59.93
+Finalize Time     :     0.40 /     0.02 / 24.69
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     3.99 /     0.08 / 50.16
+Initialize Time   :     0.08 /     0.00 / 57.50
+Calculation Time  :     3.48 /     0.06 / 59.97
+Finalize Time     :     0.39 /     0.02 / 19.43
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.07 /     0.08 / 53.81
+Initialize Time   :     0.10 /     0.00 / 62.99
+Calculation Time  :     3.57 /     0.06 / 60.10
+Finalize Time     :     0.39 /     0.01 / 26.71
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.04 /     0.08 / 53.34
+Initialize Time   :     0.10 /     0.00 / 68.22
+Calculation Time  :     3.55 /     0.06 / 59.86
+Finalize Time     :     0.39 /     0.01 / 26.12
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.04 /     0.08 / 52.43
+Initialize Time   :     0.09 /     0.00 / 60.05
+Calculation Time  :     3.53 /     0.06 / 59.96
+Finalize Time     :     0.40 /     0.02 / 24.05
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.04 /     0.08 / 53.62
+Initialize Time   :     0.11 /     0.00 / 63.05
+Calculation Time  :     3.53 /     0.06 / 60.22
+Finalize Time     :     0.40 /     0.01 / 26.79
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     3.87 /     0.07 / 53.28
+Initialize Time   :     0.09 /     0.00 / 58.73
+Calculation Time  :     3.37 /     0.06 / 60.15
+Finalize Time     :     0.39 /     0.02 / 25.96
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     3.87 /     0.07 / 51.71
+Initialize Time   :     0.11 /     0.00 / 73.46
+Calculation Time  :     3.35 /     0.06 / 60.07
+Finalize Time     :     0.41 /     0.02 / 23.40
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     3.97 /     0.07 / 53.33
+Initialize Time   :     0.11 /     0.00 / 63.43
+Calculation Time  :     3.46 /     0.06 / 59.84
+Finalize Time     :     0.40 /     0.01 / 26.97
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     3.87 /     0.08 / 51.53
+Initialize Time   :     0.10 /     0.00 / 64.95
+Calculation Time  :     3.37 /     0.06 / 59.60
+Finalize Time     :     0.40 /     0.02 / 23.57
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     3.93 /     0.07 / 53.52
+Initialize Time   :     0.11 /     0.00 / 62.81
+Calculation Time  :     3.42 /     0.06 / 60.08
+Finalize Time     :     0.40 /     0.01 / 27.22
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     3.88 /     0.07 / 51.76
+Initialize Time   :     0.09 /     0.00 / 59.06
+Calculation Time  :     3.39 /     0.06 / 59.56
+Finalize Time     :     0.39 /     0.02 / 23.68
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     3.91 /     0.07 / 53.44
+Initialize Time   :     0.11 /     0.00 / 66.04
+Calculation Time  :     3.41 /     0.06 / 60.21
+Finalize Time     :     0.39 /     0.01 / 26.38
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     3.85 /     0.07 / 53.11
+Initialize Time   :     0.10 /     0.00 / 65.46
+Calculation Time  :     3.35 /     0.06 / 59.69
+Finalize Time     :     0.39 /     0.01 / 26.37
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     3.86 /     0.07 / 53.07
+Initialize Time   :     0.10 /     0.00 / 65.78
+Calculation Time  :     3.36 /     0.06 / 60.27
+Finalize Time     :     0.39 /     0.02 / 25.28
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.02 /     0.08 / 53.25
+Initialize Time   :     0.12 /     0.00 / 66.28
+Calculation Time  :     3.51 /     0.06 / 60.29
+Finalize Time     :     0.39 /     0.02 / 25.30
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     3.88 /     0.07 / 52.93
+Initialize Time   :     0.10 /     0.00 / 64.64
+Calculation Time  :     3.39 /     0.06 / 59.91
+Finalize Time     :     0.39 /     0.02 / 25.78
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.26 /     0.08 / 52.84
+Initialize Time   :     0.09 /     0.00 / 58.94
+Calculation Time  :     3.76 /     0.06 / 60.29
+Finalize Time     :     0.41 /     0.02 / 24.57
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     3.93 /     0.07 / 52.82
+Initialize Time   :     0.11 /     0.00 / 61.08
+Calculation Time  :     3.43 /     0.06 / 59.63
+Finalize Time     :     0.39 /     0.02 / 25.96
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.13 /     0.08 / 53.57
+Initialize Time   :     0.09 /     0.00 / 59.74
+Calculation Time  :     3.64 /     0.06 / 60.30
+Finalize Time     :     0.40 /     0.02 / 26.35
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.14 /     0.08 / 53.19
+Initialize Time   :     0.09 /     0.00 / 57.65
+Calculation Time  :     3.64 /     0.06 / 60.04
+Finalize Time     :     0.39 /     0.02 / 24.99
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     3.88 /     0.07 / 52.51
+Initialize Time   :     0.10 /     0.00 / 66.48
+Calculation Time  :     3.38 /     0.06 / 59.92
+Finalize Time     :     0.40 /     0.02 / 25.11
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     3.96 /     0.07 / 52.89
+Initialize Time   :     0.11 /     0.00 / 62.78
+Calculation Time  :     3.44 /     0.06 / 60.05
+Finalize Time     :     0.40 /     0.02 / 25.34
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     3.88 /     0.08 / 51.53
+Initialize Time   :     0.10 /     0.00 / 65.97
+Calculation Time  :     3.37 /     0.06 / 59.81
+Finalize Time     :     0.40 /     0.02 / 23.03
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     3.88 /     0.08 / 50.54
+Initialize Time   :     0.11 /     0.00 / 66.25
+Calculation Time  :     3.37 /     0.06 / 60.22
+Finalize Time     :     0.40 /     0.02 / 20.96
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24034
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.01 /     0.08 / 52.94
+Initialize Time   :     0.14 /     0.00 / 63.16
+Calculation Time  :     3.46 /     0.06 / 59.86
+Finalize Time     :     0.39 /     0.02 / 24.93
+
+
+*************** End Hmat_Construction ***************
+
+Iteration  :   30
+Initial    : 
+Init[   0] :  -9689.93756214
+Eigenvalue : 
+Eig[   0]  :  -9690.39155023
+   CpuTime :         129.450
+  WallTime :           2.447
+Residue    : 
+Res[   0]  :      0.00005568
+
+
+*************** End MatrixDiag ***************
+
+
+
+*************** Begin Selection ***************
+
+Q_Space Dim       : 24994 
+Working Time      : cputime / walltime / effective core 
+Total Time        :   273.70 /     4.80 / 57.00
+Initialize Time   :     0.01 /     0.01 / 1.29
+Calculation Time  :   273.58 /     4.79 / 57.09
+Finalize Time     :     0.11 /     0.00 / 63.77
+
+
+*************** End Selection ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     0.69 /     0.01 / 50.77
+Initialize Time   :     0.17 /     0.00 / 61.70
+Calculation Time  :     0.09 /     0.00 / 30.17
+Finalize Time     :     0.42 /     0.01 / 53.86
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin MatrixDiag ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.50 /     0.09 / 51.37
+Initialize Time   :     0.07 /     0.00 / 59.42
+Calculation Time  :     3.99 /     0.06 / 61.49
+Finalize Time     :     0.43 /     0.02 / 20.04
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.15 /     0.08 / 53.32
+Initialize Time   :     0.11 /     0.00 / 63.23
+Calculation Time  :     3.62 /     0.06 / 62.61
+Finalize Time     :     0.41 /     0.02 / 22.51
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.05 /     0.08 / 51.10
+Initialize Time   :     0.10 /     0.00 / 68.29
+Calculation Time  :     3.54 /     0.06 / 62.33
+Finalize Time     :     0.41 /     0.02 / 19.58
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.14 /     0.08 / 52.28
+Initialize Time   :     0.10 /     0.00 / 57.66
+Calculation Time  :     3.62 /     0.06 / 62.23
+Finalize Time     :     0.39 /     0.02 / 20.28
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.08 /     0.08 / 53.24
+Initialize Time   :     0.10 /     0.00 / 67.79
+Calculation Time  :     3.57 /     0.06 / 62.29
+Finalize Time     :     0.40 /     0.02 / 22.48
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.03 /     0.08 / 51.87
+Initialize Time   :     0.09 /     0.00 / 60.40
+Calculation Time  :     3.53 /     0.06 / 62.79
+Finalize Time     :     0.40 /     0.02 / 20.07
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.14 /     0.08 / 52.96
+Initialize Time   :     0.11 /     0.00 / 63.98
+Calculation Time  :     3.63 /     0.06 / 61.96
+Finalize Time     :     0.39 /     0.02 / 21.89
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.04 /     0.08 / 53.48
+Initialize Time   :     0.10 /     0.00 / 67.51
+Calculation Time  :     3.55 /     0.06 / 62.76
+Finalize Time     :     0.39 /     0.02 / 22.35
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.04 /     0.08 / 52.37
+Initialize Time   :     0.09 /     0.00 / 60.09
+Calculation Time  :     3.54 /     0.06 / 62.83
+Finalize Time     :     0.40 /     0.02 / 20.77
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.26 /     0.08 / 53.29
+Initialize Time   :     0.11 /     0.00 / 64.46
+Calculation Time  :     3.75 /     0.06 / 62.26
+Finalize Time     :     0.40 /     0.02 / 22.28
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.05 /     0.08 / 53.07
+Initialize Time   :     0.10 /     0.00 / 66.88
+Calculation Time  :     3.55 /     0.06 / 62.47
+Finalize Time     :     0.40 /     0.02 / 22.29
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.05 /     0.08 / 52.14
+Initialize Time   :     0.10 /     0.00 / 66.91
+Calculation Time  :     3.55 /     0.06 / 63.04
+Finalize Time     :     0.40 /     0.02 / 20.19
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.16 /     0.08 / 53.34
+Initialize Time   :     0.10 /     0.00 / 58.51
+Calculation Time  :     3.63 /     0.06 / 62.35
+Finalize Time     :     0.40 /     0.02 / 22.24
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.08 /     0.08 / 52.51
+Initialize Time   :     0.09 /     0.00 / 59.32
+Calculation Time  :     3.58 /     0.06 / 62.94
+Finalize Time     :     0.40 /     0.02 / 20.78
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.04 /     0.08 / 51.58
+Initialize Time   :     0.09 /     0.00 / 59.60
+Calculation Time  :     3.54 /     0.06 / 62.48
+Finalize Time     :     0.40 /     0.02 / 19.90
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.19 /     0.08 / 53.11
+Initialize Time   :     0.11 /     0.00 / 63.74
+Calculation Time  :     3.68 /     0.06 / 62.47
+Finalize Time     :     0.40 /     0.02 / 21.96
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 24994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.08 /     0.08 / 53.32
+Initialize Time   :     0.10 /     0.00 / 66.17
+Calculation Time  :     3.58 /     0.06 / 62.85
+Finalize Time     :     0.39 /     0.02 / 21.66
+
+
+*************** End Hmat_Construction ***************
+
+Iteration  :   16
+Initial    : 
+Init[   0] :  -9690.39155023
+Eigenvalue : 
+Eig[   0]  :  -9690.40655433
+   CpuTime :          73.270
+  WallTime :           1.388
+Residue    : 
+Res[   0]  :      0.00004894
+
+
+*************** End MatrixDiag ***************
+
+
+
+*************** Begin Selection ***************
+
+Q_Space Dim       : 25080 
+Working Time      : cputime / walltime / effective core 
+Total Time        :   274.36 /     4.86 / 56.43
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  :   274.25 /     4.85 / 56.51
+Finalize Time     :     0.10 /     0.00 / 65.63
+
+
+*************** End Selection ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 25080
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     0.60 /     0.01 / 47.58
+Initialize Time   :     0.12 /     0.00 / 64.65
+Calculation Time  :     0.07 /     0.00 / 17.31
+Finalize Time     :     0.41 /     0.01 / 61.47
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin MatrixDiag ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 25080
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.46 /     0.08 / 52.82
+Initialize Time   :     0.04 /     0.00 / 64.28
+Calculation Time  :     4.00 /     0.06 / 62.60
+Finalize Time     :     0.42 /     0.02 / 21.14
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 25080
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.13 /     0.08 / 52.28
+Initialize Time   :     0.10 /     0.00 / 67.24
+Calculation Time  :     3.62 /     0.06 / 62.60
+Finalize Time     :     0.40 /     0.02 / 20.39
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 25080
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.04 /     0.08 / 49.40
+Initialize Time   :     0.10 /     0.00 / 65.47
+Calculation Time  :     3.53 /     0.06 / 62.60
+Finalize Time     :     0.40 /     0.02 / 16.81
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 25080
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.15 /     0.08 / 51.55
+Initialize Time   :     0.11 /     0.00 / 62.36
+Calculation Time  :     3.64 /     0.06 / 62.69
+Finalize Time     :     0.39 /     0.02 / 18.92
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 25080
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.08 /     0.08 / 51.84
+Initialize Time   :     0.09 /     0.00 / 58.90
+Calculation Time  :     3.56 /     0.06 / 62.55
+Finalize Time     :     0.41 /     0.02 / 20.28
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 25080
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.04 /     0.08 / 50.14
+Initialize Time   :     0.09 /     0.00 / 58.33
+Calculation Time  :     3.54 /     0.06 / 62.70
+Finalize Time     :     0.41 /     0.02 / 18.20
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 25080
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.14 /     0.08 / 52.30
+Initialize Time   :     0.11 /     0.00 / 62.37
+Calculation Time  :     3.63 /     0.06 / 62.69
+Finalize Time     :     0.40 /     0.02 / 20.56
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 25080
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.05 /     0.08 / 51.49
+Initialize Time   :     0.10 /     0.00 / 66.69
+Calculation Time  :     3.55 /     0.06 / 62.69
+Finalize Time     :     0.40 /     0.02 / 19.53
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 25080
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.06 /     0.08 / 49.94
+Initialize Time   :     0.10 /     0.00 / 67.19
+Calculation Time  :     3.55 /     0.06 / 62.85
+Finalize Time     :     0.41 /     0.02 / 17.63
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 25080
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     4.15 /     0.08 / 51.82
+Initialize Time   :     0.11 /     0.00 / 63.36
+Calculation Time  :     3.63 /     0.06 / 62.75
+Finalize Time     :     0.40 /     0.02 / 19.55
+
+
+*************** End Hmat_Construction ***************
+
+Iteration  :    9
+Initial    : 
+Init[   0] :  -9690.40655433
+Eigenvalue : 
+Eig[   0]  :  -9690.40734706
+   CpuTime :          42.820
+  WallTime :           0.831
+Residue    : 
+Res[   0]  :      0.00003082
+
+
+*************** End MatrixDiag ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     0.54 /     0.01 / 54.83
+Initialize Time   :     0.07 /     0.00 / 61.67
+Calculation Time  :     0.08 /     0.00 / 34.49
+Finalize Time     :     0.38 /     0.01 / 60.10
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin MatrixDiag ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.41 /     0.03 / 56.28
+Initialize Time   :     0.04 /     0.00 / 55.81
+Calculation Time  :     0.98 /     0.02 / 61.26
+Finalize Time     :     0.39 /     0.01 / 46.99
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.43 /     0.03 / 56.67
+Initialize Time   :     0.10 /     0.00 / 65.03
+Calculation Time  :     0.93 /     0.02 / 60.07
+Finalize Time     :     0.40 /     0.01 / 48.99
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.40 /     0.02 / 56.90
+Initialize Time   :     0.09 /     0.00 / 62.33
+Calculation Time  :     0.90 /     0.01 / 60.15
+Finalize Time     :     0.40 /     0.01 / 49.06
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.38 /     0.02 / 56.39
+Initialize Time   :     0.09 /     0.00 / 63.49
+Calculation Time  :     0.90 /     0.01 / 60.63
+Finalize Time     :     0.39 /     0.01 / 47.77
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.38 /     0.02 / 56.54
+Initialize Time   :     0.09 /     0.00 / 65.90
+Calculation Time  :     0.89 /     0.01 / 59.84
+Finalize Time     :     0.40 /     0.01 / 49.24
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.41 /     0.02 / 56.73
+Initialize Time   :     0.11 /     0.00 / 65.72
+Calculation Time  :     0.91 /     0.01 / 60.74
+Finalize Time     :     0.39 /     0.01 / 47.86
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.37 /     0.02 / 55.75
+Initialize Time   :     0.09 /     0.00 / 62.57
+Calculation Time  :     0.89 /     0.01 / 59.33
+Finalize Time     :     0.38 /     0.01 / 46.99
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.38 /     0.02 / 56.73
+Initialize Time   :     0.09 /     0.00 / 61.74
+Calculation Time  :     0.90 /     0.01 / 61.34
+Finalize Time     :     0.39 /     0.01 / 47.88
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.37 /     0.02 / 56.83
+Initialize Time   :     0.09 /     0.00 / 62.68
+Calculation Time  :     0.88 /     0.01 / 60.42
+Finalize Time     :     0.39 /     0.01 / 48.35
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.42 /     0.02 / 56.90
+Initialize Time   :     0.11 /     0.00 / 65.88
+Calculation Time  :     0.90 /     0.02 / 59.74
+Finalize Time     :     0.39 /     0.01 / 47.71
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.39 /     0.02 / 56.82
+Initialize Time   :     0.10 /     0.00 / 67.58
+Calculation Time  :     0.89 /     0.01 / 60.47
+Finalize Time     :     0.39 /     0.01 / 47.47
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.38 /     0.02 / 56.22
+Initialize Time   :     0.10 /     0.00 / 65.00
+Calculation Time  :     0.89 /     0.01 / 60.38
+Finalize Time     :     0.39 /     0.01 / 47.46
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.38 /     0.02 / 56.37
+Initialize Time   :     0.10 /     0.00 / 64.23
+Calculation Time  :     0.89 /     0.01 / 60.30
+Finalize Time     :     0.39 /     0.01 / 48.08
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.41 /     0.03 / 56.10
+Initialize Time   :     0.11 /     0.00 / 61.76
+Calculation Time  :     0.91 /     0.02 / 60.34
+Finalize Time     :     0.39 /     0.01 / 47.45
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.39 /     0.02 / 56.39
+Initialize Time   :     0.10 /     0.00 / 61.00
+Calculation Time  :     0.89 /     0.01 / 61.03
+Finalize Time     :     0.39 /     0.01 / 46.54
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.37 /     0.02 / 55.83
+Initialize Time   :     0.09 /     0.00 / 57.57
+Calculation Time  :     0.88 /     0.01 / 59.88
+Finalize Time     :     0.39 /     0.01 / 47.44
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.49 /     0.03 / 56.09
+Initialize Time   :     0.10 /     0.00 / 62.90
+Calculation Time  :     0.99 /     0.02 / 59.33
+Finalize Time     :     0.39 /     0.01 / 47.33
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.40 /     0.02 / 56.41
+Initialize Time   :     0.11 /     0.00 / 67.90
+Calculation Time  :     0.89 /     0.01 / 59.64
+Finalize Time     :     0.39 /     0.01 / 47.67
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.38 /     0.02 / 56.44
+Initialize Time   :     0.10 /     0.00 / 64.08
+Calculation Time  :     0.88 /     0.01 / 60.32
+Finalize Time     :     0.40 /     0.01 / 48.50
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.38 /     0.03 / 52.11
+Initialize Time   :     0.10 /     0.00 / 64.04
+Calculation Time  :     0.88 /     0.01 / 59.83
+Finalize Time     :     0.39 /     0.01 / 38.38
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.53 /     0.03 / 56.78
+Initialize Time   :     0.10 /     0.00 / 64.31
+Calculation Time  :     1.04 /     0.02 / 61.48
+Finalize Time     :     0.39 /     0.01 / 46.27
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.41 /     0.02 / 56.90
+Initialize Time   :     0.11 /     0.00 / 65.55
+Calculation Time  :     0.90 /     0.01 / 60.52
+Finalize Time     :     0.40 /     0.01 / 48.91
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.38 /     0.02 / 56.03
+Initialize Time   :     0.10 /     0.00 / 63.43
+Calculation Time  :     0.89 /     0.01 / 60.60
+Finalize Time     :     0.39 /     0.01 / 46.90
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.39 /     0.02 / 56.68
+Initialize Time   :     0.09 /     0.00 / 57.83
+Calculation Time  :     0.88 /     0.01 / 60.75
+Finalize Time     :     0.39 /     0.01 / 46.25
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.38 /     0.02 / 56.55
+Initialize Time   :     0.10 /     0.00 / 63.21
+Calculation Time  :     0.89 /     0.01 / 60.82
+Finalize Time     :     0.39 /     0.01 / 47.97
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.41 /     0.02 / 56.92
+Initialize Time   :     0.12 /     0.00 / 66.02
+Calculation Time  :     0.90 /     0.01 / 60.63
+Finalize Time     :     0.39 /     0.01 / 48.40
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.38 /     0.02 / 56.60
+Initialize Time   :     0.10 /     0.00 / 64.19
+Calculation Time  :     0.88 /     0.01 / 60.57
+Finalize Time     :     0.39 /     0.01 / 47.29
+
+
+*************** End Hmat_Construction ***************
+
+Iteration  :   26
+Initial    : 
+Init[   0] :  -9690.39700516
+Eigenvalue : 
+Eig[   0]  :  -9690.39743737
+   CpuTime :          40.190
+  WallTime :           0.713
+Residue    : 
+Res[   0]  :      0.00000523
+
+
+*************** End MatrixDiag ***************
+
+********** Selection_iCI Info **********
+
+iter / ncsf_prime / ncfg_prime / ncsf_Qspace / Similarity / time 
+   0 /      6465  /      2971  /     24034  /  0.0686  /   425.460,   11.936 
+   1 /      6746  /      3046  /     24994  /  0.9275  /   353.090,   10.449 
+   2 /      6767  /      3051  /     25080  /  0.9934  /   322.950,    9.862 
+Final prune is performed!
+
+***************************************
+
+
+********** BEGIN PRINT Important cfgspace INFO **********
+
+  spintwo | symmetry |  nstates |     ncsf |     ncfg |   energy 
+        4 |        1 |        1 |     6767 |     3051 |  -9690.39743737, 
+
+
+*************** Begin PRINT NONRELA CFGSPACE ***************
+
+spintwo    = 4
+irrep      = 1
+nstates    = 1
+ncfg       =         3051
+ncsf       =         6767
+ncsf full  =        46925
+ndet full  =        68893
+ndet eff   =         9030
+
+*********** state  0 ***********
+Important ocfg:
+    0 222222211110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0     4.256498e-01  18.117777
+    1 222222111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0     3.268352e-01  10.682124
+    2 222222111110100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -2.640605e-01   6.972794
+    3 222222121110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0     1.518291e-01   2.305206
+    4 222222201110100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0     1.403665e-01   1.970274
+    5 222222011111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       1    -1.358733e-01   1.846156
+    6 222222201111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -1.352402e-01   1.828992
+    7 222222011112000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0     1.330325e-01   1.769765
+    8 222222011111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0     1.308864e-01   1.713126
+    9 222221211110010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -1.221135e-01   1.491171
+   10 222222111110100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       4    -1.209314e-01   1.462441
+   11 222221211110001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0     1.193898e-01   1.425391
+   12 222222111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       4     1.192449e-01   1.421935
+   13 222222111110100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       3    -1.175555e-01   1.381929
+   14 222212211110000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0     1.161757e-01   1.349679
+   15 222212211110000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -1.132239e-01   1.281965
+   16 222222111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       3     1.115582e-01   1.244523
+   17 222222011110200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0     9.881742e-02   0.976488
+   18 222122211111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -9.741025e-02   0.948876
+   19 222222111110100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       2    -9.134511e-02   0.834393
+   20 222222021111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0     8.810661e-02   0.776277
+   21 222222021110100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -8.625753e-02   0.744036
+   22 222221111111010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -8.386021e-02   0.703253
+   23 222122111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000      10     8.244843e-02   0.679774
+   24 222222101111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       1    -8.235773e-02   0.678279
+check importance : 6505 / 6767 (   96.13)
+
+****************************
+
+
+*************** End PRINT NONRELA CFGSPACE ***************
+
+
+
+********** END   PRINT Important cfgspace INFO **********
+
+
+
+******************************
+* Step   1 Finished          *
+* CpuTime  =        1896.060 *
+* WallTime =          48.809 *
+******************************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     0.74 /     0.01 / 58.93
+Initialize Time   :     0.13 /     0.00 / 67.47
+Calculation Time  :     0.21 /     0.00 / 48.28
+Finalize Time     :     0.39 /     0.01 / 62.52
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin MatrixDiag ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.43 /     0.02 / 58.33
+Initialize Time   :     0.04 /     0.00 / 62.90
+Calculation Time  :     0.98 /     0.02 / 60.82
+Finalize Time     :     0.39 /     0.01 / 50.53
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.39 /     0.02 / 58.25
+Initialize Time   :     0.09 /     0.00 / 61.83
+Calculation Time  :     0.90 /     0.01 / 60.44
+Finalize Time     :     0.39 /     0.01 / 52.22
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.59 /     0.03 / 53.60
+Initialize Time   :     0.10 /     0.00 / 64.94
+Calculation Time  :     1.09 /     0.02 / 61.42
+Finalize Time     :     0.40 /     0.01 / 38.73
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 6767
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     1.66 /     0.03 / 57.64
+Initialize Time   :     0.11 /     0.00 / 68.42
+Calculation Time  :     1.16 /     0.02 / 60.66
+Finalize Time     :     0.39 /     0.01 / 48.81
+
+
+*************** End Hmat_Construction ***************
+
+Iteration  :    3
+Initial    : 
+Init[   0] :  -9690.39743737
+Eigenvalue : 
+Eig[   0]  :  -9690.39743737
+   CpuTime :           6.300
+  WallTime :           0.111
+Residue    : 
+Res[   0]  :      0.00000737
+
+
+*************** End MatrixDiag ***************
+
+
+
+*************** Begin Selection ***************
+
+Q_Space Dim       : 8888188 
+Working Time      : cputime / walltime / effective core 
+Total Time        :   649.79 /    21.25 / 30.58
+Initialize Time   :     0.08 /     0.00 / 63.87
+Calculation Time  :   639.69 /    11.67 / 54.82
+Finalize Time     :    10.01 /     9.58 / 1.04
+
+
+*************** End Selection ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :   337.10 /     5.32 / 63.32
+Initialize Time   :     0.41 /     0.03 / 13.64
+Calculation Time  :   336.29 /     5.28 / 63.65
+Finalize Time     :     0.39 /     0.01 / 39.09
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin MatrixDiag ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 10833.73 /   173.71 / 62.37
+Initialize Time   :     0.01 /     0.01 / 0.95
+Calculation Time  : 10831.16 /   171.39 / 63.20
+Finalize Time     :     2.56 /     2.31 / 1.11
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11340.92 /   181.31 / 62.55
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  : 11339.04 /   179.76 / 63.08
+Finalize Time     :     1.88 /     1.54 / 1.22
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11811.78 /   189.93 / 62.19
+Initialize Time   :     0.01 /     0.01 / 1.23
+Calculation Time  : 11810.28 /   188.80 / 62.56
+Finalize Time     :     1.49 /     1.13 / 1.32
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11662.53 /   186.82 / 62.43
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  : 11661.07 /   185.71 / 62.79
+Finalize Time     :     1.46 /     1.10 / 1.32
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11403.78 /   184.02 / 61.97
+Initialize Time   :     0.01 /     0.01 / 1.33
+Calculation Time  : 11402.34 /   182.96 / 62.32
+Finalize Time     :     1.42 /     1.06 / 1.34
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11494.56 /   184.20 / 62.40
+Initialize Time   :     0.01 /     0.01 / 1.28
+Calculation Time  : 11493.11 /   183.11 / 62.77
+Finalize Time     :     1.44 /     1.08 / 1.33
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11410.19 /   183.42 / 62.21
+Initialize Time   :     0.01 /     0.01 / 1.32
+Calculation Time  : 11408.71 /   182.31 / 62.58
+Finalize Time     :     1.46 /     1.10 / 1.33
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11481.08 /   183.40 / 62.60
+Initialize Time   :     0.01 /     0.01 / 1.37
+Calculation Time  : 11479.66 /   182.33 / 62.96
+Finalize Time     :     1.41 /     1.06 / 1.33
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11475.90 /   183.99 / 62.37
+Initialize Time   :     0.01 /     0.01 / 1.37
+Calculation Time  : 11474.47 /   182.93 / 62.73
+Finalize Time     :     1.42 /     1.05 / 1.35
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11538.20 /   184.66 / 62.48
+Initialize Time   :     0.01 /     0.01 / 1.34
+Calculation Time  : 11536.78 /   183.60 / 62.84
+Finalize Time     :     1.40 /     1.05 / 1.33
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11470.08 /   183.34 / 62.56
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  : 11468.65 /   182.27 / 62.92
+Finalize Time     :     1.42 /     1.06 / 1.34
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11420.44 /   184.67 / 61.84
+Initialize Time   :     0.01 /     0.01 / 1.38
+Calculation Time  : 11419.03 /   183.63 / 62.18
+Finalize Time     :     1.39 /     1.03 / 1.34
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11400.87 /   183.98 / 61.97
+Initialize Time   :     0.01 /     0.01 / 1.34
+Calculation Time  : 11399.44 /   182.91 / 62.32
+Finalize Time     :     1.42 /     1.06 / 1.34
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11408.55 /   184.48 / 61.84
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  : 11407.14 /   183.41 / 62.19
+Finalize Time     :     1.41 /     1.06 / 1.33
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11359.01 /   183.67 / 61.84
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  : 11357.53 /   182.54 / 62.22
+Finalize Time     :     1.47 /     1.13 / 1.31
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11381.90 /   182.89 / 62.23
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  : 11380.42 /   181.76 / 62.61
+Finalize Time     :     1.48 /     1.13 / 1.31
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11364.23 /   183.84 / 61.82
+Initialize Time   :     0.01 /     0.01 / 1.28
+Calculation Time  : 11362.81 /   182.78 / 62.17
+Finalize Time     :     1.40 /     1.05 / 1.34
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11476.17 /   183.62 / 62.50
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  : 11474.69 /   182.50 / 62.87
+Finalize Time     :     1.48 /     1.12 / 1.33
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11396.00 /   182.11 / 62.58
+Initialize Time   :     0.01 /     0.01 / 1.30
+Calculation Time  : 11394.54 /   181.00 / 62.95
+Finalize Time     :     1.45 /     1.10 / 1.32
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11512.52 /   184.63 / 62.36
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  : 11511.10 /   183.54 / 62.72
+Finalize Time     :     1.42 /     1.08 / 1.32
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11431.34 /   184.68 / 61.90
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  : 11429.91 /   183.60 / 62.26
+Finalize Time     :     1.43 /     1.07 / 1.33
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11466.09 /   186.92 / 61.34
+Initialize Time   :     0.01 /     0.01 / 1.30
+Calculation Time  : 11464.62 /   185.81 / 61.70
+Finalize Time     :     1.46 /     1.10 / 1.33
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11491.63 /   184.28 / 62.36
+Initialize Time   :     0.01 /     0.01 / 1.35
+Calculation Time  : 11490.22 /   183.24 / 62.71
+Finalize Time     :     1.39 /     1.04 / 1.34
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11395.03 /   186.44 / 61.12
+Initialize Time   :     0.01 /     0.01 / 1.36
+Calculation Time  : 11393.65 /   185.40 / 61.46
+Finalize Time     :     1.37 /     1.03 / 1.33
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11524.84 /   185.36 / 62.18
+Initialize Time   :     0.01 /     0.01 / 1.36
+Calculation Time  : 11523.39 /   184.26 / 62.54
+Finalize Time     :     1.44 /     1.08 / 1.33
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11438.56 /   187.62 / 60.97
+Initialize Time   :     0.01 /     0.01 / 1.36
+Calculation Time  : 11436.99 /   186.41 / 61.35
+Finalize Time     :     1.56 /     1.20 / 1.29
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11484.40 /   185.35 / 61.96
+Initialize Time   :     0.01 /     0.01 / 1.34
+Calculation Time  : 11483.00 /   184.32 / 62.30
+Finalize Time     :     1.38 /     1.02 / 1.35
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11545.41 /   187.78 / 61.48
+Initialize Time   :     0.01 /     0.01 / 1.33
+Calculation Time  : 11544.00 /   186.72 / 61.83
+Finalize Time     :     1.40 /     1.05 / 1.33
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11449.77 /   184.91 / 61.92
+Initialize Time   :     0.01 /     0.01 / 1.34
+Calculation Time  : 11448.34 /   183.84 / 62.27
+Finalize Time     :     1.42 /     1.06 / 1.33
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11470.24 /   184.55 / 62.15
+Initialize Time   :     0.01 /     0.01 / 1.36
+Calculation Time  : 11468.83 /   183.48 / 62.51
+Finalize Time     :     1.40 /     1.06 / 1.32
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11404.68 /   185.64 / 61.43
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  : 11403.65 /   184.60 / 61.78
+Finalize Time     :     1.03 /     1.04 / 0.99
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11504.26 /   184.36 / 62.40
+Initialize Time   :     0.01 /     0.01 / 1.36
+Calculation Time  : 11502.84 /   183.31 / 62.75
+Finalize Time     :     1.40 /     1.04 / 1.35
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11524.00 /   186.26 / 61.87
+Initialize Time   :     0.01 /     0.01 / 1.36
+Calculation Time  : 11522.61 /   185.23 / 62.21
+Finalize Time     :     1.37 /     1.03 / 1.34
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11513.59 /   185.96 / 61.91
+Initialize Time   :     0.01 /     0.01 / 1.21
+Calculation Time  : 11512.18 /   184.92 / 62.25
+Finalize Time     :     1.39 /     1.03 / 1.35
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11534.66 /   186.25 / 61.93
+Initialize Time   :     0.01 /     0.01 / 1.36
+Calculation Time  : 11533.26 /   185.21 / 62.27
+Finalize Time     :     1.39 /     1.04 / 1.34
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11471.28 /   185.42 / 61.87
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  : 11469.89 /   184.37 / 62.21
+Finalize Time     :     1.39 /     1.04 / 1.33
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11517.95 /   187.36 / 61.48
+Initialize Time   :     0.01 /     0.01 / 1.37
+Calculation Time  : 11516.56 /   186.32 / 61.81
+Finalize Time     :     1.38 /     1.03 / 1.34
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11532.72 /   223.56 / 51.59
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  : 11531.37 /   222.29 / 51.87
+Finalize Time     :     1.35 /     1.26 / 1.07
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11699.49 /   224.56 / 52.10
+Initialize Time   :     0.01 /     0.01 / 1.31
+Calculation Time  : 11697.92 /   223.34 / 52.38
+Finalize Time     :     1.56 /     1.21 / 1.29
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 8888188
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 11689.52 /   228.88 / 51.07
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  : 11687.92 /   227.64 / 51.34
+Finalize Time     :     1.59 /     1.23 / 1.29
+
+
+*************** End Hmat_Construction ***************
+
+Iteration  :   39
+Initial    : 
+Init[   0] :  -9690.39743737
+Eigenvalue : 
+Eig[   0]  :  -9690.80706988
+   CpuTime :      459375.910
+  WallTime :        7537.572
+Residue    : 
+Res[   0]  :      0.00007376
+
+
+*************** End MatrixDiag ***************
+
+
+
+*************** Begin Selection ***************
+
+Q_Space Dim       : 10879175 
+Working Time      : cputime / walltime / effective core 
+Total Time        :  5607.90 /   174.70 / 32.10
+Initialize Time   :     8.73 /     8.75 / 1.00
+Calculation Time  :  5596.52 /   163.69 / 34.19
+Finalize Time     :     2.65 /     2.26 / 1.17
+
+
+*************** End Selection ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 10879175
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     5.41 /     0.16 / 34.67
+Initialize Time   :     0.44 /     0.06 / 7.88
+Calculation Time  :     4.66 /     0.09 / 49.49
+Finalize Time     :     0.31 /     0.01 / 51.02
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin MatrixDiag ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 10879175
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16323.94 /   299.54 / 54.50
+Initialize Time   :     0.01 /     0.01 / 1.15
+Calculation Time  : 16322.66 /   298.26 / 54.73
+Finalize Time     :     1.27 /     1.27 / 1.00
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 10879175
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16500.26 /   293.31 / 56.26
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  : 16498.84 /   292.08 / 56.49
+Finalize Time     :     1.42 /     1.23 / 1.16
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 10879175
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16517.44 /   302.27 / 54.65
+Initialize Time   :     0.01 /     0.01 / 1.05
+Calculation Time  : 16515.87 /   301.06 / 54.86
+Finalize Time     :     1.56 /     1.20 / 1.30
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 10879175
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16520.32 /   300.73 / 54.93
+Initialize Time   :     0.01 /     0.01 / 1.08
+Calculation Time  : 16518.82 /   299.37 / 55.18
+Finalize Time     :     1.49 /     1.36 / 1.10
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 10879175
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16429.57 /   304.83 / 53.90
+Initialize Time   :     0.01 /     0.01 / 1.14
+Calculation Time  : 16427.96 /   303.57 / 54.12
+Finalize Time     :     1.60 /     1.25 / 1.28
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 10879175
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16432.60 /   295.45 / 55.62
+Initialize Time   :     0.01 /     0.01 / 1.13
+Calculation Time  : 16430.88 /   294.09 / 55.87
+Finalize Time     :     1.71 /     1.35 / 1.27
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 10879175
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16412.60 /   301.36 / 54.46
+Initialize Time   :     0.01 /     0.01 / 1.09
+Calculation Time  : 16410.87 /   300.01 / 54.70
+Finalize Time     :     1.72 /     1.35 / 1.28
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 10879175
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16425.97 /   304.54 / 53.94
+Initialize Time   :     0.01 /     0.01 / 1.10
+Calculation Time  : 16424.52 /   303.14 / 54.18
+Finalize Time     :     1.44 /     1.40 / 1.03
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 10879175
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16539.93 /   320.25 / 51.65
+Initialize Time   :     0.01 /     0.01 / 1.10
+Calculation Time  : 16538.18 /   318.86 / 51.87
+Finalize Time     :     1.73 /     1.38 / 1.25
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 10879175
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16408.59 /   328.87 / 49.89
+Initialize Time   :     0.02 /     0.01 / 2.21
+Calculation Time  : 16406.90 /   327.54 / 50.09
+Finalize Time     :     1.66 /     1.32 / 1.26
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 10879175
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16450.26 /   342.73 / 48.00
+Initialize Time   :     0.01 /     0.01 / 1.01
+Calculation Time  : 16448.48 /   341.30 / 48.19
+Finalize Time     :     1.77 /     1.41 / 1.25
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 10879175
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16334.08 /   333.21 / 49.02
+Initialize Time   :     0.01 /     0.01 / 1.03
+Calculation Time  : 16332.32 /   331.82 / 49.22
+Finalize Time     :     1.42 /     1.37 / 1.03
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 10879175
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16289.93 /   328.60 / 49.57
+Initialize Time   :     0.01 /     0.01 / 1.07
+Calculation Time  : 16288.14 /   327.16 / 49.79
+Finalize Time     :     1.78 /     1.43 / 1.24
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 10879175
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16238.97 /   321.91 / 50.45
+Initialize Time   :     0.01 /     0.01 / 0.99
+Calculation Time  : 16237.16 /   320.48 / 50.67
+Finalize Time     :     1.79 /     1.42 / 1.26
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 10879175
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16411.03 /   338.87 / 48.43
+Initialize Time   :     0.01 /     0.01 / 1.07
+Calculation Time  : 16409.25 /   337.44 / 48.63
+Finalize Time     :     1.76 /     1.42 / 1.24
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 10879175
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16346.98 /   326.89 / 50.01
+Initialize Time   :     0.01 /     0.01 / 1.08
+Calculation Time  : 16345.19 /   325.47 / 50.22
+Finalize Time     :     1.77 /     1.41 / 1.25
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 10879175
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16381.17 /   331.84 / 49.36
+Initialize Time   :     0.01 /     0.01 / 1.06
+Calculation Time  : 16379.53 /   330.56 / 49.55
+Finalize Time     :     1.63 /     1.28 / 1.28
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 10879175
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16573.40 /   327.19 / 50.65
+Initialize Time   :     0.01 /     0.01 / 1.02
+Calculation Time  : 16571.73 /   325.87 / 50.85
+Finalize Time     :     1.66 /     1.30 / 1.27
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 10879175
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16323.38 /   262.37 / 62.22
+Initialize Time   :     0.01 /     0.01 / 1.10
+Calculation Time  : 16321.77 /   261.11 / 62.51
+Finalize Time     :     1.59 /     1.24 / 1.28
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 10879175
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16365.61 /   263.48 / 62.11
+Initialize Time   :     0.01 /     0.01 / 1.20
+Calculation Time  : 16363.97 /   262.18 / 62.41
+Finalize Time     :     1.63 /     1.29 / 1.27
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 10879175
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16368.62 /   263.30 / 62.17
+Initialize Time   :     0.01 /     0.01 / 1.19
+Calculation Time  : 16367.40 /   262.05 / 62.46
+Finalize Time     :     1.21 /     1.24 / 0.98
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 10879175
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16363.07 /   263.26 / 62.15
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  : 16361.43 /   261.96 / 62.46
+Finalize Time     :     1.63 /     1.29 / 1.26
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 10879175
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16338.67 /   263.81 / 61.93
+Initialize Time   :     0.01 /     0.01 / 1.20
+Calculation Time  : 16337.06 /   262.54 / 62.23
+Finalize Time     :     1.59 /     1.25 / 1.27
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 10879175
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16350.60 /   265.84 / 61.50
+Initialize Time   :     0.02 /     0.01 / 2.24
+Calculation Time  : 16349.01 /   264.62 / 61.78
+Finalize Time     :     1.57 /     1.21 / 1.29
+
+
+*************** End Hmat_Construction ***************
+
+Iteration  :   23
+Initial    : 
+Init[   0] :  -9690.80706988
+Eigenvalue : 
+Eig[   0]  :  -9690.82005162
+   CpuTime :      394044.600
+  WallTime :        7308.210
+Residue    : 
+Res[   0]  :      0.00003009
+
+
+*************** End MatrixDiag ***************
+
+
+
+*************** Begin Selection ***************
+
+Q_Space Dim       : 11028994 
+Working Time      : cputime / walltime / effective core 
+Total Time        :  6204.19 /   175.54 / 35.34
+Initialize Time   :     6.27 /     6.29 / 1.00
+Calculation Time  :  6196.83 /   168.66 / 36.74
+Finalize Time     :     1.09 /     0.59 / 1.86
+
+
+*************** End Selection ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 11028994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     2.07 /     0.05 / 44.81
+Initialize Time   :     0.13 /     0.00 / 53.56
+Calculation Time  :     1.54 /     0.03 / 45.04
+Finalize Time     :     0.39 /     0.01 / 40.81
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin MatrixDiag ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 11028994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16823.04 /   268.08 / 62.75
+Initialize Time   :     0.01 /     0.01 / 1.16
+Calculation Time  : 16821.45 /   266.84 / 63.04
+Finalize Time     :     1.58 /     1.23 / 1.28
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 11028994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16696.52 /   264.82 / 63.05
+Initialize Time   :     0.01 /     0.01 / 1.16
+Calculation Time  : 16694.94 /   263.59 / 63.34
+Finalize Time     :     1.56 /     1.22 / 1.28
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 11028994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16546.92 /   263.58 / 62.78
+Initialize Time   :     0.01 /     0.01 / 1.18
+Calculation Time  : 16545.36 /   262.37 / 63.06
+Finalize Time     :     1.55 /     1.19 / 1.30
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 11028994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16666.77 /   264.58 / 62.99
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  : 16665.20 /   263.34 / 63.28
+Finalize Time     :     1.57 /     1.22 / 1.28
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 11028994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16770.76 /   264.89 / 63.31
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  : 16769.10 /   263.58 / 63.62
+Finalize Time     :     1.65 /     1.31 / 1.26
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 11028994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16677.40 /   265.80 / 62.74
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  : 16675.88 /   264.63 / 63.02
+Finalize Time     :     1.52 /     1.17 / 1.30
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 11028994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16628.74 /   264.06 / 62.97
+Initialize Time   :     0.01 /     0.01 / 1.18
+Calculation Time  : 16627.11 /   262.78 / 63.27
+Finalize Time     :     1.62 /     1.27 / 1.28
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 11028994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16635.70 /   264.26 / 62.95
+Initialize Time   :     0.01 /     0.01 / 1.18
+Calculation Time  : 16634.14 /   263.05 / 63.24
+Finalize Time     :     1.54 /     1.20 / 1.29
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 11028994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16699.73 /   265.16 / 62.98
+Initialize Time   :     0.02 /     0.01 / 2.26
+Calculation Time  : 16698.19 /   263.98 / 63.26
+Finalize Time     :     1.52 /     1.18 / 1.29
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 11028994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16685.53 /   264.13 / 63.17
+Initialize Time   :     0.01 /     0.01 / 1.19
+Calculation Time  : 16683.74 /   262.68 / 63.51
+Finalize Time     :     1.78 /     1.44 / 1.24
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 11028994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16570.79 /   263.97 / 62.77
+Initialize Time   :     0.01 /     0.01 / 1.16
+Calculation Time  : 16569.26 /   262.80 / 63.05
+Finalize Time     :     1.52 /     1.16 / 1.31
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 11028994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16597.02 /   263.93 / 62.88
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  : 16595.43 /   262.68 / 63.18
+Finalize Time     :     1.58 /     1.24 / 1.27
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 11028994
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 16655.30 /   264.48 / 62.97
+Initialize Time   :     0.01 /     0.01 / 0.92
+Calculation Time  : 16653.73 /   263.26 / 63.26
+Finalize Time     :     1.55 /     1.20 / 1.29
+
+
+*************** End Hmat_Construction ***************
+
+Iteration  :   12
+Initial    : 
+Init[   0] :  -9690.82005162
+Eigenvalue : 
+Eig[   0]  :  -9690.82071421
+   CpuTime :      216865.860
+  WallTime :        3451.860
+Residue    : 
+Res[   0]  :      0.00004899
+
+
+*************** End MatrixDiag ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :    14.92 /     0.26 / 56.89
+Initialize Time   :     0.38 /     0.01 / 48.07
+Calculation Time  :    14.18 /     0.25 / 57.21
+Finalize Time     :     0.36 /     0.01 / 55.79
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin MatrixDiag ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8353.06 /   134.05 / 62.31
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  :  8351.76 /   133.10 / 62.75
+Finalize Time     :     1.30 /     0.94 / 1.39
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8306.00 /   134.41 / 61.79
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  :  8304.71 /   133.47 / 62.22
+Finalize Time     :     1.28 /     0.93 / 1.37
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8388.23 /   134.39 / 62.42
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  :  8386.94 /   133.45 / 62.85
+Finalize Time     :     1.29 /     0.93 / 1.39
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8335.34 /   134.67 / 61.89
+Initialize Time   :     0.01 /     0.01 / 1.43
+Calculation Time  :  8334.07 /   133.76 / 62.31
+Finalize Time     :     1.26 /     0.90 / 1.40
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8377.18 /   134.34 / 62.36
+Initialize Time   :     0.01 /     0.01 / 1.45
+Calculation Time  :  8375.88 /   133.39 / 62.79
+Finalize Time     :     1.29 /     0.94 / 1.37
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8357.36 /   134.35 / 62.21
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  :  8356.43 /   133.43 / 62.63
+Finalize Time     :     0.92 /     0.92 / 1.00
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8418.16 /   134.40 / 62.64
+Initialize Time   :     0.01 /     0.01 / 1.37
+Calculation Time  :  8416.86 /   133.46 / 63.07
+Finalize Time     :     1.29 /     0.93 / 1.38
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8377.70 /   135.08 / 62.02
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  :  8376.39 /   134.12 / 62.46
+Finalize Time     :     1.31 /     0.95 / 1.37
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8394.89 /   134.66 / 62.34
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  :  8393.61 /   133.72 / 62.77
+Finalize Time     :     1.28 /     0.93 / 1.37
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8367.25 /   134.55 / 62.19
+Initialize Time   :     0.01 /     0.01 / 1.46
+Calculation Time  :  8365.96 /   133.61 / 62.61
+Finalize Time     :     1.28 /     0.93 / 1.37
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8370.72 /   134.72 / 62.13
+Initialize Time   :     0.01 /     0.01 / 1.47
+Calculation Time  :  8369.44 /   133.80 / 62.55
+Finalize Time     :     1.27 /     0.91 / 1.39
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8318.07 /   133.44 / 62.34
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  :  8317.18 /   132.53 / 62.76
+Finalize Time     :     0.89 /     0.90 / 0.99
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8347.99 /   134.77 / 61.94
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  :  8346.94 /   133.70 / 62.43
+Finalize Time     :     1.05 /     1.06 / 0.99
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8413.28 /   135.41 / 62.13
+Initialize Time   :     0.01 /     0.01 / 1.50
+Calculation Time  :  8411.93 /   134.40 / 62.59
+Finalize Time     :     1.34 /     1.00 / 1.34
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8375.98 /   134.94 / 62.07
+Initialize Time   :     0.01 /     0.01 / 1.47
+Calculation Time  :  8374.63 /   133.96 / 62.51
+Finalize Time     :     1.34 /     0.98 / 1.37
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8381.96 /   134.63 / 62.26
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  :  8380.58 /   133.58 / 62.74
+Finalize Time     :     1.38 /     1.05 / 1.32
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8409.37 /   134.78 / 62.40
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  :  8408.00 /   133.74 / 62.87
+Finalize Time     :     1.37 /     1.03 / 1.33
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8364.27 /   134.64 / 62.12
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  :  8362.93 /   133.64 / 62.58
+Finalize Time     :     1.34 /     0.99 / 1.35
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8377.32 /   134.54 / 62.27
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  :  8375.96 /   133.52 / 62.73
+Finalize Time     :     1.36 /     1.01 / 1.34
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8328.13 /   134.60 / 61.87
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  :  8326.83 /   133.64 / 62.31
+Finalize Time     :     1.30 /     0.95 / 1.36
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8445.90 /   135.23 / 62.46
+Initialize Time   :     0.01 /     0.01 / 1.47
+Calculation Time  :  8444.52 /   134.21 / 62.92
+Finalize Time     :     1.37 /     1.01 / 1.36
+
+
+*************** End Hmat_Construction ***************
+
+Iteration  :   20
+Initial    : 
+Init[   0] :  -9690.81824498
+Eigenvalue : 
+Eig[   0]  :  -9690.81827036
+   CpuTime :      176132.190
+  WallTime :        2839.547
+Residue    : 
+Res[   0]  :      0.00000942
+
+
+*************** End MatrixDiag ***************
+
+********** Selection_iCI Info **********
+
+iter / ncsf_prime / ncfg_prime / ncsf_Qspace / Similarity / time 
+   0 /   6624764  /   1727276  /   8888188  /  0.0010  /  460676.020, 7588.770 
+   1 /   7870739  /   1913577  /  10879175  /  0.8306  /  399816.580, 7504.650 
+   2 /   7956425  /   1933188  /  11028994  /  0.9873  /  223156.560, 3645.050 
+Final prune is performed!
+
+***************************************
+
+
+********** BEGIN PRINT Important cfgspace INFO **********
+
+  spintwo | symmetry |  nstates |     ncsf |     ncfg |   energy 
+        4 |        1 |        1 |  7956425 |  1933188 |  -9690.81827036, 
+
+
+*************** Begin PRINT NONRELA CFGSPACE ***************
+
+spintwo    = 4
+irrep      = 1
+nstates    = 1
+ncfg       =      1933188
+ncsf       =      7956425
+ncsf full  =     77804486
+ndet full  =    125559504
+ndet eff   =     11741422
+
+*********** state  0 ***********
+Important ocfg:
+    0 222222211110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -3.777046e-01  14.266080
+    1 222222111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -2.925566e-01   8.558939
+    2 222222111110100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0     2.573173e-01   6.621220
+    3 222222121110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -1.459622e-01   2.130496
+    4 222222201110100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -1.386147e-01   1.921403
+    5 222222011111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       1     1.334854e-01   1.781836
+    6 222222011111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -1.278855e-01   1.635470
+    7 222222011112000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -1.214658e-01   1.475395
+    8 222222201111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0     1.201330e-01   1.443194
+    9 222222111110100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       3     1.187259e-01   1.409584
+   10 222222111110100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       4     1.168141e-01   1.364552
+   11 222221211110010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0     1.154156e-01   1.332075
+   12 222222011110200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -1.090948e-01   1.190167
+   13 222212211110000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0     1.088779e-01   1.185440
+   14 222221211110001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -1.080888e-01   1.168318
+   15 222222111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       4    -1.080491e-01   1.167461
+   16 222212211110000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -1.068353e-01   1.141379
+   17 222222111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       3    -1.006221e-01   1.012480
+   18 222222111110100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       2     9.304030e-02   0.865650
+   19 222122211111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0     8.973064e-02   0.805159
+   20 222222021110100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0     8.948499e-02   0.800756
+   21 222222021111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -8.463068e-02   0.716235
+   22 222122111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000      10    -8.290972e-02   0.687402
+   23 222222101111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       1     8.279413e-02   0.685487
+   24 222221111111010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0     7.937063e-02   0.629970
+check importance : 7902846 / 7956425 (   99.33)
+
+****************************
+
+
+*************** End PRINT NONRELA CFGSPACE ***************
+
+
+
+********** END   PRINT Important cfgspace INFO **********
+
+
+
+******************************
+* Step   2 Finished          *
+* CpuTime  =     1262153.080 *
+* WallTime =       21865.690 *
+******************************
+
+
+
+*************** Begin First_Residue_Update ***************
+
+memory            = 1520280256
+Working Time      : cputime / walltime / effective core 
+Total Time        :    39.40 /     1.56 / 25.25
+Initialize Time   :     0.00 /     0.00 / 0.00
+Calculation Time  :    39.40 /     1.56 / 25.25
+Finalize Time     :     0.00 /     0.00 / 0.00
+
+
+*************** End First_Residue_Update ***************
+
+
+
+*************** Begin Second_Residue_Update ***************
+
+memory            = 6664245792
+Working Time      : cputime / walltime / effective core 
+Total Time        :   239.92 /     9.10 / 26.36
+Initialize Time   :     0.00 /     0.00 / 0.00
+Calculation Time  :   239.91 /     9.10 / 26.36
+Finalize Time     :     0.00 /     0.00 / 0.00
+
+
+*************** End Second_Residue_Update ***************
+
+Thread label = 37
+ept        =     -4.00341872
+ene offset =     -3.90733449
+
+
+********** ENPT2 Info **********
+
+Wall Time                   = 25814.987
+CPU  Time                   = 1595391.950
+CPU / Wall                  =   61.801
+ncfg_touched                =         132007443449
+ncsf_touched                =       21120152579527
+---------------------------------------------------
+       var        /  perturbation  /     total     
+     -9690.81827036/    -0.09608422/ -9690.91435458
+---------------------------------------------------
+Residue Time                =  279.330 ( 0.02%)
+Generate connection  record = 11261.550 ( 0.71%)
+sort connection record      = 48081.879 ( 3.01%)
+sort calculation record     = 81511.467 ( 5.11%)
+sort                        = 129593.346 ( 8.12%)
+calculation sigma           = 602926.616 (37.79%)
+collect result              = 609250.305 (38.19%)
+Other                       = 242080.804 (15.17%)
+nWorkDone                   = 2289655
+
+
+********************************
+
+
+
+*************** iCI_ENPT(2)_NonRela::Info ***************
+
+_______________________________________________________________________________________________
+      ncfg |       ncsf |            evar |             ept |            etot 
+_______________________________________________________________________________________________
+   1933188 |    7956425 |  -9690.81827036 |     -0.09608422 |  -9690.91435458 
+_______________________________________________________________________________________________
+
+
+*******************************************************
+
+
+
+******************************
+* Step   3 Finished          *
+* CpuTime  =     2857547.450 *
+* WallTime =       47682.794 *
+******************************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :    33.55 /     0.61 / 54.67
+Initialize Time   :     0.40 /     0.01 / 28.65
+Calculation Time  :    32.80 /     0.59 / 55.25
+Finalize Time     :     0.34 /     0.01 / 55.74
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin MatrixDiag ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8220.19 /   134.95 / 60.91
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  :  8219.01 /   134.14 / 61.27
+Finalize Time     :     1.18 /     0.81 / 1.45
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8363.74 /   135.95 / 61.52
+Initialize Time   :     0.01 /     0.01 / 1.48
+Calculation Time  :  8362.49 /   135.07 / 61.91
+Finalize Time     :     1.24 /     0.87 / 1.42
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8313.82 /   134.91 / 61.62
+Initialize Time   :     0.01 /     0.01 / 1.53
+Calculation Time  :  8312.60 /   134.06 / 62.01
+Finalize Time     :     1.20 /     0.85 / 1.42
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8311.09 /   136.19 / 61.03
+Initialize Time   :     0.00 /     0.01 / 0.00
+Calculation Time  :  8309.87 /   135.33 / 61.40
+Finalize Time     :     1.21 /     0.85 / 1.43
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 7956425
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8328.13 /   137.10 / 60.75
+Initialize Time   :     0.01 /     0.01 / 1.50
+Calculation Time  :  8326.77 /   136.10 / 61.18
+Finalize Time     :     1.34 /     0.99 / 1.35
+
+
+*************** End Hmat_Construction ***************
+
+Iteration  :    4
+Initial    : 
+Init[   0] :  -9690.81827036
+Eigenvalue : 
+Eig[   0]  :  -9690.81827036
+   CpuTime :       41600.710
+  WallTime :         681.671
+Residue    : 
+Res[   0]  :      0.00000459
+
+
+*************** End MatrixDiag ***************
+
+
+
+*************** Begin Selection ***************
+
+Q_Space Dim       : 19426378 
+Working Time      : cputime / walltime / effective core 
+Total Time        :  8497.40 /   173.32 / 49.03
+Initialize Time   :     4.09 /     4.10 / 1.00
+Calculation Time  :  8483.66 /   160.07 / 53.00
+Finalize Time     :     9.65 /     9.15 / 1.05
+
+
+*************** End Selection ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :    34.88 /     0.74 / 47.37
+Initialize Time   :     0.52 /     0.07 / 7.66
+Calculation Time  :    33.99 /     0.66 / 51.33
+Finalize Time     :     0.36 /     0.01 / 56.83
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin MatrixDiag ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 36394.52 /   583.79 / 62.34
+Initialize Time   :     0.01 /     0.01 / 0.69
+Calculation Time  : 36392.89 /   582.50 / 62.48
+Finalize Time     :     1.62 /     1.27 / 1.28
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 36402.95 /   584.35 / 62.30
+Initialize Time   :     0.01 /     0.01 / 0.69
+Calculation Time  : 36401.11 /   582.85 / 62.45
+Finalize Time     :     1.82 /     1.49 / 1.22
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 36778.59 /   591.28 / 62.20
+Initialize Time   :     0.01 /     0.01 / 0.69
+Calculation Time  : 36776.89 /   589.92 / 62.34
+Finalize Time     :     1.68 /     1.34 / 1.25
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 36383.12 /   580.16 / 62.71
+Initialize Time   :     0.03 /     0.02 / 1.97
+Calculation Time  : 36381.45 /   578.86 / 62.85
+Finalize Time     :     1.63 /     1.29 / 1.26
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 36143.00 /   575.04 / 62.85
+Initialize Time   :     0.01 /     0.01 / 0.69
+Calculation Time  : 36141.34 /   573.73 / 62.99
+Finalize Time     :     1.64 /     1.29 / 1.27
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 36014.33 /   570.46 / 63.13
+Initialize Time   :     0.01 /     0.01 / 0.68
+Calculation Time  : 36012.67 /   569.15 / 63.27
+Finalize Time     :     1.65 /     1.29 / 1.28
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 36309.26 /   575.59 / 63.08
+Initialize Time   :     0.01 /     0.01 / 0.69
+Calculation Time  : 36307.99 /   574.29 / 63.22
+Finalize Time     :     1.26 /     1.29 / 0.98
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 36275.55 /   574.88 / 63.10
+Initialize Time   :     0.02 /     0.01 / 1.39
+Calculation Time  : 36273.79 /   573.48 / 63.25
+Finalize Time     :     1.74 /     1.39 / 1.25
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 36292.77 /   574.38 / 63.19
+Initialize Time   :     0.01 /     0.01 / 0.69
+Calculation Time  : 36291.05 /   573.02 / 63.33
+Finalize Time     :     1.70 /     1.35 / 1.26
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 36275.06 /   573.92 / 63.21
+Initialize Time   :     0.01 /     0.01 / 0.69
+Calculation Time  : 36273.20 /   572.39 / 63.37
+Finalize Time     :     1.85 /     1.52 / 1.22
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 36372.14 /   575.73 / 63.18
+Initialize Time   :     0.02 /     0.02 / 1.20
+Calculation Time  : 36370.39 /   574.32 / 63.33
+Finalize Time     :     1.73 /     1.39 / 1.25
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 36375.63 /   575.29 / 63.23
+Initialize Time   :     0.02 /     0.02 / 1.15
+Calculation Time  : 36373.87 /   573.88 / 63.38
+Finalize Time     :     1.74 /     1.39 / 1.25
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 36303.05 /   576.94 / 62.92
+Initialize Time   :     0.01 /     0.02 / 0.66
+Calculation Time  : 36301.27 /   575.50 / 63.08
+Finalize Time     :     1.76 /     1.42 / 1.24
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 36311.88 /   574.28 / 63.23
+Initialize Time   :     0.01 /     0.01 / 0.67
+Calculation Time  : 36310.12 /   572.87 / 63.38
+Finalize Time     :     1.74 /     1.40 / 1.24
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 36202.95 /   570.81 / 63.42
+Initialize Time   :     0.01 /     0.01 / 0.69
+Calculation Time  : 36201.14 /   569.36 / 63.58
+Finalize Time     :     1.80 /     1.44 / 1.25
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 36413.29 /   579.62 / 62.82
+Initialize Time   :     0.02 /     0.02 / 1.33
+Calculation Time  : 36411.52 /   578.21 / 62.97
+Finalize Time     :     1.74 /     1.39 / 1.25
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 36344.11 /   578.07 / 62.87
+Initialize Time   :     0.03 /     0.01 / 2.07
+Calculation Time  : 36342.34 /   576.66 / 63.02
+Finalize Time     :     1.74 /     1.39 / 1.25
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 36684.71 /   579.64 / 63.29
+Initialize Time   :     0.02 /     0.02 / 1.32
+Calculation Time  : 36682.97 /   578.25 / 63.44
+Finalize Time     :     1.72 /     1.37 / 1.25
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 36671.16 /   581.08 / 63.11
+Initialize Time   :     0.01 /     0.01 / 0.67
+Calculation Time  : 36669.40 /   579.66 / 63.26
+Finalize Time     :     1.75 /     1.40 / 1.25
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 36487.87 /   578.20 / 63.11
+Initialize Time   :     0.03 /     0.02 / 1.96
+Calculation Time  : 36486.06 /   576.74 / 63.26
+Finalize Time     :     1.78 /     1.44 / 1.23
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 36553.75 /   578.99 / 63.13
+Initialize Time   :     0.01 /     0.01 / 0.67
+Calculation Time  : 36552.00 /   577.58 / 63.28
+Finalize Time     :     1.73 /     1.39 / 1.25
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 36276.62 /   573.17 / 63.29
+Initialize Time   :     0.01 /     0.01 / 0.69
+Calculation Time  : 36274.86 /   571.75 / 63.45
+Finalize Time     :     1.74 /     1.41 / 1.24
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 36110.09 /   571.55 / 63.18
+Initialize Time   :     0.01 /     0.01 / 0.68
+Calculation Time  : 36108.35 /   570.16 / 63.33
+Finalize Time     :     1.73 /     1.37 / 1.27
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 36084.50 /   571.23 / 63.17
+Initialize Time   :     0.01 /     0.02 / 0.66
+Calculation Time  : 36082.76 /   569.85 / 63.32
+Finalize Time     :     1.72 /     1.36 / 1.26
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 35775.00 /   564.54 / 63.37
+Initialize Time   :     0.02 /     0.01 / 1.37
+Calculation Time  : 35773.26 /   563.15 / 63.52
+Finalize Time     :     1.72 /     1.38 / 1.25
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19426378
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 36036.33 /   569.57 / 63.27
+Initialize Time   :     0.01 /     0.02 / 0.67
+Calculation Time  : 36034.49 /   568.06 / 63.43
+Finalize Time     :     1.83 /     1.49 / 1.23
+
+
+*************** End Hmat_Construction ***************
+
+Iteration  :   25
+Initial    : 
+Init[   0] :  -9690.81827036
+Eigenvalue : 
+Eig[   0]  :  -9690.84226976
+   CpuTime :      944828.290
+  WallTime :       15014.833
+Residue    : 
+Res[   0]  :      0.00004403
+
+
+*************** End MatrixDiag ***************
+
+
+
+*************** Begin Selection ***************
+
+Q_Space Dim       : 19848984 
+Working Time      : cputime / walltime / effective core 
+Total Time        : 13253.26 /   282.96 / 46.84
+Initialize Time   :    13.97 /    13.98 / 1.00
+Calculation Time  : 13236.80 /   266.93 / 49.59
+Finalize Time     :     2.49 /     2.06 / 1.21
+
+
+*************** End Selection ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19848984
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :     3.11 /     0.14 / 21.46
+Initialize Time   :     0.50 /     0.10 / 5.21
+Calculation Time  :     2.24 /     0.04 / 53.81
+Finalize Time     :     0.37 /     0.01 / 50.21
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin MatrixDiag ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19848984
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 37804.51 /   596.27 / 63.40
+Initialize Time   :     0.02 /     0.01 / 1.39
+Calculation Time  : 37802.72 /   594.84 / 63.55
+Finalize Time     :     1.76 /     1.42 / 1.24
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19848984
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 37768.35 /   595.71 / 63.40
+Initialize Time   :     0.01 /     0.02 / 0.57
+Calculation Time  : 37766.62 /   594.32 / 63.55
+Finalize Time     :     1.72 /     1.37 / 1.26
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19848984
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 37641.50 /   596.06 / 63.15
+Initialize Time   :     0.01 /     0.01 / 0.67
+Calculation Time  : 37639.78 /   594.68 / 63.29
+Finalize Time     :     1.71 /     1.36 / 1.26
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19848984
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 38028.61 /   601.25 / 63.25
+Initialize Time   :     0.01 /     0.02 / 0.66
+Calculation Time  : 38026.85 /   599.83 / 63.40
+Finalize Time     :     1.75 /     1.41 / 1.24
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19848984
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 37818.08 /   596.66 / 63.38
+Initialize Time   :     0.01 /     0.01 / 0.67
+Calculation Time  : 37816.34 /   595.29 / 63.53
+Finalize Time     :     1.72 /     1.36 / 1.26
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19848984
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 37671.98 /   595.64 / 63.25
+Initialize Time   :     0.02 /     0.01 / 1.34
+Calculation Time  : 37670.24 /   594.26 / 63.39
+Finalize Time     :     1.72 /     1.37 / 1.26
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19848984
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 37778.97 /   597.12 / 63.27
+Initialize Time   :     0.01 /     0.01 / 0.68
+Calculation Time  : 37777.15 /   595.65 / 63.42
+Finalize Time     :     1.81 /     1.46 / 1.24
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19848984
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 37900.27 /   599.63 / 63.21
+Initialize Time   :     0.01 /     0.01 / 0.68
+Calculation Time  : 37898.54 /   598.25 / 63.35
+Finalize Time     :     1.71 /     1.37 / 1.25
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19848984
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 37919.80 /   599.57 / 63.25
+Initialize Time   :     0.02 /     0.01 / 1.35
+Calculation Time  : 37918.01 /   598.14 / 63.39
+Finalize Time     :     1.76 /     1.42 / 1.24
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19848984
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 38243.87 /   604.53 / 63.26
+Initialize Time   :     0.01 /     0.01 / 0.68
+Calculation Time  : 38242.03 /   603.03 / 63.42
+Finalize Time     :     1.83 /     1.48 / 1.24
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19848984
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 38129.13 /   602.44 / 63.29
+Initialize Time   :     0.02 /     0.01 / 1.38
+Calculation Time  : 38127.34 /   601.01 / 63.44
+Finalize Time     :     1.76 /     1.42 / 1.24
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19848984
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 37759.39 /   598.00 / 63.14
+Initialize Time   :     0.01 /     0.02 / 0.64
+Calculation Time  : 37757.58 /   596.53 / 63.30
+Finalize Time     :     1.80 /     1.46 / 1.24
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 19848984
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 37893.88 /   599.82 / 63.18
+Initialize Time   :     0.02 /     0.01 / 1.36
+Calculation Time  : 37892.11 /   598.40 / 63.32
+Finalize Time     :     1.75 /     1.41 / 1.25
+
+
+*************** End Hmat_Construction ***************
+
+Iteration  :   12
+Initial    : 
+Init[   0] :  -9690.84226976
+Eigenvalue : 
+Eig[   0]  :  -9690.84300387
+   CpuTime :      492628.640
+  WallTime :        7798.517
+Residue    : 
+Res[   0]  :      0.00002020
+
+
+*************** End MatrixDiag ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 15520180
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        :    30.43 /     0.56 / 54.37
+Initialize Time   :     0.45 /     0.05 / 8.95
+Calculation Time  :    29.56 /     0.49 / 60.12
+Finalize Time     :     0.41 /     0.02 / 23.27
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin MatrixDiag ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 15520180
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 20550.81 /   330.22 / 62.23
+Initialize Time   :     0.01 /     0.01 / 0.84
+Calculation Time  : 20549.03 /   328.80 / 62.50
+Finalize Time     :     1.77 /     1.41 / 1.25
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 15520180
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 20571.84 /   328.11 / 62.70
+Initialize Time   :     0.01 /     0.01 / 0.84
+Calculation Time  : 20570.01 /   326.62 / 62.98
+Finalize Time     :     1.81 /     1.47 / 1.23
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 15520180
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 20505.62 /   328.71 / 62.38
+Initialize Time   :     0.01 /     0.01 / 0.84
+Calculation Time  : 20503.80 /   327.24 / 62.66
+Finalize Time     :     1.81 /     1.46 / 1.24
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 15520180
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 20610.83 /   331.72 / 62.13
+Initialize Time   :     0.01 /     0.01 / 0.83
+Calculation Time  : 20609.02 /   330.26 / 62.40
+Finalize Time     :     1.80 /     1.45 / 1.24
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 15520180
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 20859.44 /   332.83 / 62.67
+Initialize Time   :     0.02 /     0.01 / 1.66
+Calculation Time  : 20857.49 /   331.23 / 62.97
+Finalize Time     :     1.93 /     1.59 / 1.21
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 15520180
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 20837.29 /   333.35 / 62.51
+Initialize Time   :     0.01 /     0.01 / 0.83
+Calculation Time  : 20835.47 /   331.88 / 62.78
+Finalize Time     :     1.81 /     1.46 / 1.24
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 15520180
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 20819.24 /   332.81 / 62.56
+Initialize Time   :     0.01 /     0.01 / 0.83
+Calculation Time  : 20817.41 /   331.32 / 62.83
+Finalize Time     :     1.82 /     1.48 / 1.23
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 15520180
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 20880.19 /   333.63 / 62.58
+Initialize Time   :     0.01 /     0.01 / 0.80
+Calculation Time  : 20878.31 /   332.10 / 62.87
+Finalize Time     :     1.87 /     1.53 / 1.22
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 15520180
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 20882.57 /   333.81 / 62.56
+Initialize Time   :     0.01 /     0.01 / 0.82
+Calculation Time  : 20880.73 /   332.30 / 62.84
+Finalize Time     :     1.83 /     1.49 / 1.22
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 15520180
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 20815.44 /   332.16 / 62.67
+Initialize Time   :     0.01 /     0.01 / 0.69
+Calculation Time  : 20813.62 /   330.68 / 62.94
+Finalize Time     :     1.81 /     1.46 / 1.24
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 15520180
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 20832.56 /   333.83 / 62.40
+Initialize Time   :     0.01 /     0.01 / 0.83
+Calculation Time  : 20830.72 /   332.34 / 62.68
+Finalize Time     :     1.83 /     1.49 / 1.23
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 15520180
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 20815.43 /   333.32 / 62.45
+Initialize Time   :     0.01 /     0.01 / 0.83
+Calculation Time  : 20813.48 /   331.72 / 62.74
+Finalize Time     :     1.93 /     1.59 / 1.22
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 15520180
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 20839.33 /   334.43 / 62.31
+Initialize Time   :     0.01 /     0.01 / 0.83
+Calculation Time  : 20837.50 /   332.95 / 62.59
+Finalize Time     :     1.82 /     1.47 / 1.23
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 15520180
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 20866.65 /   333.63 / 62.54
+Initialize Time   :     0.01 /     0.01 / 0.84
+Calculation Time  : 20864.79 /   332.11 / 62.82
+Finalize Time     :     1.85 /     1.51 / 1.23
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 15520180
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 20825.89 /   334.36 / 62.29
+Initialize Time   :     0.01 /     0.01 / 0.83
+Calculation Time  : 20824.07 /   332.87 / 62.56
+Finalize Time     :     1.81 /     1.48 / 1.23
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 15520180
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 20839.32 /   334.24 / 62.35
+Initialize Time   :     0.01 /     0.01 / 0.73
+Calculation Time  : 20837.38 /   332.65 / 62.64
+Finalize Time     :     1.92 /     1.58 / 1.22
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 15520180
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 20876.04 /   334.06 / 62.49
+Initialize Time   :     0.01 /     0.01 / 0.82
+Calculation Time  : 20874.12 /   332.47 / 62.78
+Finalize Time     :     1.91 /     1.57 / 1.21
+
+
+*************** End Hmat_Construction ***************
+
+
+
+*************** Begin Hmat_Construction ***************
+
+dimension = 15520180
+nnz               = 0
+Working Time      : cputime / walltime / effective core 
+Total Time        : 20697.02 /   331.12 / 62.51
+Initialize Time   :     0.01 /     0.01 / 0.84
+Calculation Time  : 20695.13 /   329.57 / 62.79
+Finalize Time     :     1.88 /     1.54 / 1.22
+
+
+*************** End Hmat_Construction ***************
+
+Iteration  :   17
+Initial    : 
+Init[   0] :  -9690.84167131
+Eigenvalue : 
+Eig[   0]  :  -9690.84168460
+   CpuTime :      374258.640
+  WallTime :        6004.639
+Residue    : 
+Res[   0]  :      0.00000572
+
+
+*************** End MatrixDiag ***************
+
+********** Selection_iCI Info **********
+
+iter / ncsf_prime / ncfg_prime / ncsf_Qspace / Similarity / time 
+   0 /  15262486  /   3432451  /  19426378  /  0.5212  /  954002.380, 15230.110 
+   1 /  15520180  /   3490927  /  19848984  /  0.9815  /  506061.990, 8111.556 
+Final prune is performed!
+
+***************************************
+
+
+********** BEGIN PRINT Important cfgspace INFO **********
+
+  spintwo | symmetry |  nstates |     ncsf |     ncfg |   energy 
+        4 |        1 |        1 | 15520180 |  3490927 |  -9690.84168460, 
+
+
+*************** Begin PRINT NONRELA CFGSPACE ***************
+
+spintwo    = 4
+irrep      = 1
+nstates    = 1
+ncfg       =      3490927
+ncsf       =     15520180
+ncsf full  =    154025645
+ndet full  =    251187082
+ndet eff   =     23184034
+
+*********** state  0 ***********
+Important ocfg:
+    0 222222211110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -3.703520e-01  13.716063
+    1 222222111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -2.874607e-01   8.263363
+    2 222222111110100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0     2.549335e-01   6.499111
+    3 222222121110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -1.454927e-01   2.116811
+    4 222222201110100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -1.387433e-01   1.924970
+    5 222222011111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       1     1.329707e-01   1.768122
+    6 222222011111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -1.269030e-01   1.610438
+    7 222222011112000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -1.196197e-01   1.430887
+    8 222222111110100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       3     1.187579e-01   1.410343
+    9 222222201111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0     1.177102e-01   1.385570
+   10 222222111110100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       4     1.153019e-01   1.329452
+   11 222221211110010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0     1.144621e-01   1.310158
+   12 222222011110200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -1.096062e-01   1.201352
+   13 222212211110000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0     1.080873e-01   1.168286
+   14 222221211110001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -1.066002e-01   1.136361
+   15 222222111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       4    -1.060978e-01   1.125673
+   16 222212211110000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -1.054001e-01   1.110918
+   17 222222111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       3    -9.902741e-02   0.980643
+   18 222222111110100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       2     9.340182e-02   0.872390
+   19 222222021110100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0     9.030343e-02   0.815471
+   20 222122211111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0     8.872301e-02   0.787177
+   21 222222021111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0    -8.435303e-02   0.711543
+   22 222122111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000      10    -8.374702e-02   0.701356
+   23 222222101111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       1     8.350962e-02   0.697386
+   24 222221111111010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       0     7.895200e-02   0.623342
+check importance : 15446195 / 15520180 (   99.52)
+
+****************************
+
+
+*************** End PRINT NONRELA CFGSPACE ***************
+
+
+
+********** END   PRINT Important cfgspace INFO **********
+
+
+
+******************************
+* Step   4 Finished          *
+* CpuTime  =     4734634.100 *
+* WallTime =       78190.383 *
+******************************
+
+
+
+*************** Begin First_Residue_Update ***************
+
+memory            = 2708018400
+Working Time      : cputime / walltime / effective core 
+Total Time        :    75.66 /     3.00 / 25.22
+Initialize Time   :     0.00 /     0.00 / 0.00
+Calculation Time  :    75.65 /     3.00 / 25.22
+Finalize Time     :     0.00 /     0.00 / 0.00
+
+
+*************** End First_Residue_Update ***************
+
+
+
+*************** Begin Second_Residue_Update ***************
+
+memory            = 11670592328
+Working Time      : cputime / walltime / effective core 
+Total Time        :   512.83 /    13.50 / 38.00
+Initialize Time   :     0.00 /     0.00 / 0.00
+Calculation Time  :   512.83 /    13.50 / 38.00
+Finalize Time     :     0.00 /     0.00 / 0.00
+
+
+*************** End Second_Residue_Update ***************
+
+Thread label = 29
+ept        =     -4.04050240
+ene offset =     -3.96000125
+
+
+********** ENPT2 Info **********
+
+Wall Time                   = 47936.261
+CPU  Time                   = 3040010.000
+CPU / Wall                  =   63.418
+ncfg_touched                =         224054665579
+ncsf_touched                =       38076189291666
+---------------------------------------------------
+       var        /  perturbation  /     total     
+     -9690.84168460/    -0.08050115/ -9690.92218575
+---------------------------------------------------
+Residue Time                =  588.490 ( 0.02%)
+Generate connection  record = 20406.587 ( 0.67%)
+sort connection record      = 78818.299 ( 2.59%)
+sort calculation record     = 146460.862 ( 4.82%)
+sort                        = 225279.162 ( 7.41%)
+calculation sigma           = 1187315.331 (39.06%)
+collect result              = 1105787.863 (36.37%)
+Other                       = 500632.567 (16.47%)
+nWorkDone                   = 6109796
+
+
+********************************
+
+
+
+*************** iCI_ENPT(2)_NonRela::Info ***************
+
+_______________________________________________________________________________________________
+      ncfg |       ncsf |            evar |             ept |            etot 
+_______________________________________________________________________________________________
+   3490927 |   15520180 |  -9690.84168460 |     -0.08050115 |  -9690.92218575 
+_______________________________________________________________________________________________
+
+
+*******************************************************
+
+
+
+******************************
+* Step   5 Finished          *
+* CpuTime  =     7774649.020 *
+* WallTime =      126131.141 *
+******************************
+
+
+
+******************************
+* Step   6 Finished          *
+* CpuTime  =     7774649.020 *
+* WallTime =      126131.142 *
+******************************
+

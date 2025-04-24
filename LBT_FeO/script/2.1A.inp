@@ -1,0 +1,67 @@
+$COMPASS    
+Title
+ test
+Basis
+ aug-cc-pwCVTZ-DK
+Geometry
+Fe   0.00000000    0.00000000   1.05
+O   0.00000000    0.00000000   -1.05
+End geometry
+group
+C(2V)
+saorb
+$END
+
+$xuanyuan
+heff
+3
+$end
+
+$scf
+rohf
+guess
+read
+iaufbau
+2
+charge
+1
+spin
+6
+iprtmo
+2
+molden
+lzclean
+$end
+
+$mcscf
+close
+4 0 1 1
+active
+7 1 3 3
+actele
+21
+roots
+3 3
+1 2 3
+1 0 0
+spin
+6
+symm
+1
+macit
+200
+conv
+1.d-7 1.d-4
+guess
+read
+quasi
+actopt
+2
+iprtmo
+2
+icipt2
+cmin
+1.d-6
+molden
+#highsym
+$end
