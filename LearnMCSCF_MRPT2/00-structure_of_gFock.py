@@ -6,19 +6,8 @@ from pyscf import symm
 from pyscf.tools import fcidump
 import pyscf.mcscf
 from pyscf_util.MeanField import iciscf
+from pyscf.mcscf.casci import get_fock
 
-# def OrbSymInfo(Mol, SCF):
-#     IRREP_MAP = {}
-#     nsym = len(Mol.irrep_name)
-#     for i in range(nsym):
-#         IRREP_MAP[Mol.irrep_name[i]] = i
-#     # print(IRREP_MAP)
-# 
-#     OrbSym = pyscf.symm.label_orb_symm(Mol, Mol.irrep_name, Mol.symm_orb, SCF.mo_coeff)
-#     IrrepOrb = []
-#     for i in range(len(OrbSym)):
-#         IrrepOrb.append(symm.irrep_name2id(Mol.groupname, OrbSym[i]))
-#     return IrrepOrb
 
 def OrbSymInfo(Mol, mo_coeff):
     IRREP_MAP = {}
@@ -33,17 +22,13 @@ def OrbSymInfo(Mol, mo_coeff):
         IrrepOrb.append(symm.irrep_name2id(Mol.groupname, OrbSym[i]))
     return IrrepOrb
 
+
 def get_sym(IrrepMap, Occ):
     res = 0
     for i in range(len(Occ)):
         if Occ[i] == 1:
             res ^= IrrepMap[i] % 10
     return res
-
-
-# Cmin = "1e-4 9e-5 7e-5 5e-5 4e-5 3e-5 2e-5 1.5e-5"
-
-# Cmin = [1e-4,9e-5,7e-5,5e-5,4e-5,3e-5,2e-5,1.5e-5,1e-5]
 
 
 cas_space_symmetry = {
@@ -59,22 +44,10 @@ cas_space_symmetry = {
     "E2ux": 1,  # 5
 }
 
-# cas_space_symmetry = {
-#     'Ag': 3,
-#     'B1g':1,
-#     'B2g':1,
-#     'B3g':1,
-#     'Au': 1,
-#     'B1u':3,
-#     'B2u':1,
-#     'B3u':1,
-# }
-
 
 if __name__ == "__main__":
 
-    bondlength = [1.3, 1.4, 1.5, 1.6, 1.68, 1.8, 1.9, 2.0, 2.2, 2.5, 2.8, 3.2]
-    # bondlength = [1.3, 1.4, 1.5, 1.6]
+    bondlength = [1.68]
 
     for BondLength in bondlength:
 
@@ -97,7 +70,7 @@ Cr     0.0000      0.0000  -%f
         SCF.max_cycle = 32
         SCF.conv_tol = 1e-9
         SCF.run()
-        
+
         # print(SCF.energy)
 
         DumpFileName = (
@@ -126,16 +99,34 @@ Cr     0.0000      0.0000  -%f
         mo_init = pyscf.mcscf.sort_mo_by_irrep(
             CASSCF_Driver, CASSCF_Driver.mo_coeff, cas_space_symmetry
         )  # right!
-        SCF.mo_coeff = mo_init
-        CASSCF_Driver = iciscf.iCISCF(SCF, norb, nelec, cmin=0.0)
-        
-        energy = CASSCF_Driver.kernel(mo_coeff=mo_init)[0]
 
-        print("energy = ", energy)
+        energy = CASSCF_Driver.kernel(mo_coeff=mo_init)[0]
 
         Mol.symmetry = "D2h"
         Mol.build()
+
+        fock_mat = get_fock(CASSCF_Driver)
+
+        ncore = CASSCF_Driver.ncore
+        ncas = CASSCF_Driver.ncas
+        nvir = mo_init.shape[1] - ncore - ncas
+        nmo = mo_init.shape[1]
+
+        print("core core part")
+        print(fock_mat[:ncore, :ncore])
+        print("core act  part")
+        print(fock_mat[:ncore, ncore : ncore + ncas])
+        print("core virt part")
+        print(fock_mat[:ncore, ncore + ncas : nmo])
+        print("act  act  part")
+        print(fock_mat[ncore : ncore + ncas, ncore : ncore + ncas])
+        print("act  virt part")
+        print(fock_mat[ncore : ncore + ncas, ncore + ncas : nmo])
+        print("virt virt part")
+        print(fock_mat[ncore + ncas : nmo, ncore + ncas : nmo])
+
+        # note the generalized Fock is Hermitian but not block-diagonal #
         
-        orbsym = OrbSymInfo(Mol, CASSCF_Driver.mo_coeff)
+        # 这里的定义和 Helgaker 书里头不一样 #
         
-        fcidump.from_mo(Mol, DumpFileName, CASSCF_Driver.mo_coeff, orbsym)
+        # 与 Theor Chem Acc (1997) 97:88-95 一样，见 eqn 4.3 #
