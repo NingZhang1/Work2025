@@ -6,6 +6,7 @@ from pyscf import symm
 from pyscf.tools import fcidump
 import pyscf.mcscf
 from pyscf_util.MeanField import iciscf
+from pyscf_util.File import file_cmoao
 
 
 def OrbSymInfo(Mol, mo_coeff):
@@ -87,87 +88,88 @@ cas_space_58_symmetry = {
 
 if __name__ == "__main__":
 
-    # bondlength = [1.3, 1.4, 1.5, 1.6, 1.68, 1.8, 1.9, 2.0, 2.2, 2.5, 2.8, 3.2]
-    bondlength = [1.68]
+    # BOND_LENGTH = [1.3, 1.4, 1.5, 1.6, 1.68, 1.8, 1.9, 2.0, 2.2, 2.5, 2.8, 3.2]
+    BOND_LENGTH = [1.68]
+    BASIS = ["ccpvdz-dk", "ccpvtz-dk", "ccpvqz-dk", "ccpv5z-dk"]
 
-    for BondLength in bondlength:
+    for basis in BASIS:
+        for BondLength in BOND_LENGTH:
 
-        Mol = pyscf.gto.Mole()
-        Mol.atom = """
-Cr     0.0000      0.0000  %f 
-Cr     0.0000      0.0000  -%f 
-""" % (
-            BondLength / 2,
-            BondLength / 2,
-        )
-        Mol.basis = "ccpvdz-dk"
-        Mol.symmetry = "Dooh"
-        Mol.spin = 2
-        Mol.charge = 0
-        Mol.verbose = 2
-        Mol.unit = "angstorm"
-        Mol.build()
-        SCF = pyscf.scf.sfx2c(pyscf.scf.RHF(Mol))
-        SCF.max_cycle = 32
-        SCF.conv_tol = 1e-9
-        SCF.run()
+            Mol = pyscf.gto.Mole()
+            Mol.atom = """
+    Cr     0.0000      0.0000  %f 
+    Cr     0.0000      0.0000  -%f 
+    """ % (
+                BondLength / 2,
+                BondLength / 2,
+            )
+            Mol.basis = basis
+            Mol.symmetry = "Dooh"
+            Mol.spin = 2
+            Mol.charge = 0
+            Mol.verbose = 4 # print everything!
+            Mol.unit = "angstorm"
+            Mol.build()
+            SCF = pyscf.scf.sfx2c(pyscf.scf.RHF(Mol))
+            SCF.max_cycle = 32
+            SCF.conv_tol = 1e-9
+            SCF.run()
 
-        # print(SCF.energy)
+            # print(SCF.energy)
 
-        DumpFileName = (
-            "FCIDUMP"
-            + "_"
-            + "CR2"
-            + "_"
-            + "ccpvdz-dk"
-            + "_"
-            + str(int(BondLength * 100))
-            # + "_SCF"
-        )
+            DumpFileName = (
+                "FCIDUMP"
+                + "_"
+                + "CR2"
+                + "_"
+                + basis
+                + "_"
+                + str(int(BondLength * 100))
+                # + "_SCF"
+            )
 
-        bond_int = int(BondLength * 100)
+            bond_int = int(BondLength * 100)
 
-        Mol.spin = 0
-        Mol.build()
+            Mol.spin = 0
+            Mol.build()
 
-        # iCISCF
+            # iCISCF
 
-        # the driver
+            # the driver
 
-        norb = 12
-        nelec = 12
-        CASSCF_Driver = pyscf.mcscf.CASSCF(SCF, norb, nelec)
-        mo_init = pyscf.mcscf.sort_mo_by_irrep(
-            CASSCF_Driver, CASSCF_Driver.mo_coeff, cas_space_symmetry
-        )  # right!
-        SCF.mo_coeff = mo_init
-        CASSCF_Driver = iciscf.iCISCF(SCF, norb, nelec, cmin=0.0)
+            norb = 12
+            nelec = 12
+            CASSCF_Driver = pyscf.mcscf.CASSCF(SCF, norb, nelec)
+            mo_init = pyscf.mcscf.sort_mo_by_irrep(
+                CASSCF_Driver, CASSCF_Driver.mo_coeff, cas_space_symmetry
+            )  # right!
+            SCF.mo_coeff = mo_init
+            CASSCF_Driver = iciscf.iCISCF(SCF, norb, nelec, cmin=0.0)
 
-        energy, _, _, mo_coeff, _ = CASSCF_Driver.kernel(mo_coeff=mo_init)
+            energy, _, _, mo_coeff, _ = CASSCF_Driver.kernel(mo_coeff=mo_init)
 
-        print("energy = ", energy)
+            print("energy = ", energy)
 
-        print("orbsym = ", OrbSymInfo(Mol, mo_coeff))
+            print("orbsym = ", OrbSymInfo(Mol, mo_coeff))
 
-        # dump 积分系数 
-        
-        SCF.mo_coeff = mo_coeff
-        norb = 44
-        nelec = 28
-        CASSCF_Driver = pyscf.mcscf.CASSCF(SCF, norb, nelec)
-        mo_init = pyscf.mcscf.sort_mo_by_irrep(
-            CASSCF_Driver, CASSCF_Driver.mo_coeff, cas_space_44_symmetry
-        )  # right!
-        
-        
-        
-        SCF.mo_coeff = mo_coeff
-        norb = 58
-        nelec = 28
-        CASSCF_Driver = pyscf.mcscf.CASSCF(SCF, norb, nelec)
-        mo_init = pyscf.mcscf.sort_mo_by_irrep(
-            CASSCF_Driver, CASSCF_Driver.mo_coeff, cas_space_58_symmetry
-        )  # right!
-        
-        
-        
+            # dump 积分系数
+
+            SCF.mo_coeff = mo_coeff
+            norb = 44
+            nelec = 28
+            CASSCF_Driver = pyscf.mcscf.CASSCF(SCF, norb, nelec)
+            mo_init = pyscf.mcscf.sort_mo_by_irrep(
+                CASSCF_Driver, CASSCF_Driver.mo_coeff, cas_space_44_symmetry
+            )  # right!
+
+            file_cmoao.Dump_Cmoao("cas_28_44_%s_%d" % (basis, BondLength*100), mo_init)
+
+            SCF.mo_coeff = mo_coeff
+            norb = 58
+            nelec = 28
+            CASSCF_Driver = pyscf.mcscf.CASSCF(SCF, norb, nelec)
+            mo_init = pyscf.mcscf.sort_mo_by_irrep(
+                CASSCF_Driver, CASSCF_Driver.mo_coeff, cas_space_58_symmetry
+            )  # right!
+
+            file_cmoao.Dump_Cmoao("cas_28_58_%s_%d" % (basis, BondLength*100), mo_init)
