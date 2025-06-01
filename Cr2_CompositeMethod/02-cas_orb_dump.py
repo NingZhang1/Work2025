@@ -31,8 +31,8 @@ def get_sym(IrrepMap, Occ):
 
 
 cas_space_symmetry = {
-    "A1u": 2,  # 5
-    "A1g": 2,  # 0
+    "A1u": 1 + 1,  # 5
+    "A1g": 1 + 1,  # 0
     "E1ux": 1,  # 7
     "E1gy": 1,  # 3
     "E1gx": 1,  # 2
@@ -41,6 +41,36 @@ cas_space_symmetry = {
     "E2gx": 1,  # 0
     "E2uy": 1,  # 4
     "E2ux": 1,  # 5
+}
+
+cas_space_44_symmetry = {
+    "A1u": 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1,  # 5
+    "A1g": 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1,  # 0
+    "E1ux": 1 + 1 + 1 + 1 + 1,  # 7
+    "E1gy": 1 + 1 + 1 + 1 + 1,  # 3
+    "E1gx": 1 + 1 + 1 + 1 + 1,  # 2
+    "E1uy": 1 + 1 + 1 + 1 + 1,  # 6
+    "E2gy": 1 + 1,  # 1
+    "E2gx": 1 + 1,  # 0
+    "E2uy": 1 + 1,  # 4
+    "E2ux": 1 + 1,  # 5
+}
+
+cas_space_58_symmetry = {
+    "A1u": 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1,  # 5
+    "A1g": 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1,  # 0
+    "E1ux": 1 + 1 + 1 + 1 + 1 + 1,  # 7
+    "E1gy": 1 + 1 + 1 + 1 + 1 + 1,  # 3
+    "E1gx": 1 + 1 + 1 + 1 + 1 + 1,  # 2
+    "E1uy": 1 + 1 + 1 + 1 + 1 + 1,  # 6
+    "E2gy": 1 + 1 + 1,  # 1
+    "E2gx": 1 + 1 + 1,  # 0
+    "E2uy": 1 + 1 + 1,  # 4
+    "E2ux": 1 + 1 + 1,  # 5
+    "E3gy": 1,  # 1
+    "E3gx": 1,  # 0
+    "E3uy": 1,  # 4
+    "E3ux": 1,  # 5
 }
 
 # cas_space_symmetry = {
@@ -57,8 +87,8 @@ cas_space_symmetry = {
 
 if __name__ == "__main__":
 
-    bondlength = [1.3, 1.4, 1.5, 1.6, 1.68, 1.8, 1.9, 2.0, 2.2, 2.5, 2.8, 3.2]
-    # bondlength = [1.3, 1.4, 1.5, 1.6]
+    # bondlength = [1.3, 1.4, 1.5, 1.6, 1.68, 1.8, 1.9, 2.0, 2.2, 2.5, 2.8, 3.2]
+    bondlength = [1.68]
 
     for BondLength in bondlength:
 
@@ -113,13 +143,31 @@ Cr     0.0000      0.0000  -%f
         SCF.mo_coeff = mo_init
         CASSCF_Driver = iciscf.iCISCF(SCF, norb, nelec, cmin=0.0)
 
-        energy = CASSCF_Driver.kernel(mo_coeff=mo_init)[0]
+        energy, _, _, mo_coeff, _ = CASSCF_Driver.kernel(mo_coeff=mo_init)
 
         print("energy = ", energy)
 
-        Mol.symmetry = "D2h"
-        Mol.build()
+        print("orbsym = ", OrbSymInfo(Mol, mo_coeff))
 
-        orbsym = OrbSymInfo(Mol, CASSCF_Driver.mo_coeff)
-
-        fcidump.from_mo(Mol, DumpFileName, CASSCF_Driver.mo_coeff, orbsym)
+        # dump 积分系数 
+        
+        SCF.mo_coeff = mo_coeff
+        norb = 44
+        nelec = 28
+        CASSCF_Driver = pyscf.mcscf.CASSCF(SCF, norb, nelec)
+        mo_init = pyscf.mcscf.sort_mo_by_irrep(
+            CASSCF_Driver, CASSCF_Driver.mo_coeff, cas_space_44_symmetry
+        )  # right!
+        
+        
+        
+        SCF.mo_coeff = mo_coeff
+        norb = 58
+        nelec = 28
+        CASSCF_Driver = pyscf.mcscf.CASSCF(SCF, norb, nelec)
+        mo_init = pyscf.mcscf.sort_mo_by_irrep(
+            CASSCF_Driver, CASSCF_Driver.mo_coeff, cas_space_58_symmetry
+        )  # right!
+        
+        
+        
