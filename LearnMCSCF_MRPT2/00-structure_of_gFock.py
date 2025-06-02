@@ -126,7 +126,7 @@ Cr     0.0000      0.0000  -%f
         print(fock_mat[ncore + ncas : nmo, ncore + ncas : nmo])
 
         # note the generalized Fock is Hermitian but not block-diagonal #
-        
+
         # 这里的定义和 Helgaker 书里头不一样 #
-        
+
         # 与 Theor Chem Acc (1997) 97:88-95 一样，见 eqn 4.3 #

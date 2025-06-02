@@ -107,7 +107,7 @@ if __name__ == "__main__":
             Mol.symmetry = "Dooh"
             Mol.spin = 2
             Mol.charge = 0
-            Mol.verbose = 4 # print everything!
+            Mol.verbose = 4  # print everything!
             Mol.unit = "angstorm"
             Mol.build()
             SCF = pyscf.scf.sfx2c(pyscf.scf.RHF(Mol))
@@ -162,7 +162,9 @@ if __name__ == "__main__":
                 CASSCF_Driver, CASSCF_Driver.mo_coeff, cas_space_44_symmetry
             )  # right!
 
-            file_cmoao.Dump_Cmoao("cas_28_44_%s_%d" % (basis, BondLength*100), mo_init)
+            file_cmoao.Dump_Cmoao(
+                "cas_28_44_%s_%d" % (basis, BondLength * 100), mo_init
+            )
 
             SCF.mo_coeff = mo_coeff
             norb = 58
@@ -172,4 +174,6 @@ if __name__ == "__main__":
                 CASSCF_Driver, CASSCF_Driver.mo_coeff, cas_space_58_symmetry
             )  # right!
 
-            file_cmoao.Dump_Cmoao("cas_28_58_%s_%d" % (basis, BondLength*100), mo_init)
+            file_cmoao.Dump_Cmoao(
+                "cas_28_58_%s_%d" % (basis, BondLength * 100), mo_init
+            )
