@@ -349,7 +349,7 @@ GEOMETRY = {
 
 # GEOMETRY2 #
 
-GEOMETRY = {
+GEOMETRY2 = {
     ##### C2H4-NH3 #####
     "C2H4-NH3": {
         "dimer": """
