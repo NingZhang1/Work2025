@@ -822,3 +822,123 @@ GEOMETRY2 = {
         """,
     },
 }
+
+############ CONFIG ############
+
+CONFIG = {
+    "H2O-NH3": {
+        "dimer": {"nfzc": 2},
+        "monomer1": {"nfzc": 1},
+        "monomer2": {"nfzc": 1},
+    },
+    "H2O-H2O": {
+        "dimer": {"nfzc": 2},
+        "monomer1": {"nfzc": 1},
+        "monomer2": {"nfzc": 1},
+    },
+    "HCN-HCN": {
+        "dimer": {"nfzc": 4},
+        "monomer1": {"nfzc": 2},
+        "monomer2": {"nfzc": 2},
+    },
+    "HF-HF": {
+        "dimer": {"nfzc": 2},
+        "monomer1": {"nfzc": 1},
+        "monomer2": {"nfzc": 1},
+    },
+    "NH3-NH3": {
+        "dimer": {"nfzc": 2},
+        "monomer1": {"nfzc": 1},
+        "monomer2": {"nfzc": 1},
+    },
+    "CH4-HF": {
+        "dimer": {"nfzc": 2},
+        "monomer1": {"nfzc": 1},
+        "monomer2": {"nfzc": 1},
+    },
+    "NH3-CH4": {
+        "dimer": {"nfzc": 2},
+        "monomer1": {"nfzc": 1},
+        "monomer2": {"nfzc": 1},
+    },
+    "CH2O-CH2O": {
+        "dimer": {"nfzc": 4},
+        "monomer1": {"nfzc": 2},
+        "monomer2": {"nfzc": 2},
+    },
+    "C2H6-H2O": {
+        "dimer": {"nfzc": 3},
+        "monomer1": {"nfzc": 1},
+        "monomer2": {"nfzc": 2},
+    },
+    "C2H6-CH2O": {
+        "dimer": {"nfzc": 4},
+        "monomer1": {"nfzc": 2},
+        "monomer2": {"nfzc": 2},
+    },
+    "C2H2-C2H2": {
+        "dimer": {"nfzc": 4},
+        "monomer1": {"nfzc": 2},
+        "monomer2": {"nfzc": 2},
+    },
+    "C2H4-NH3": {
+        "dimer": {"nfzc": 3},
+        "monomer1": {"nfzc": 1},
+        "monomer2": {"nfzc": 2},
+    },
+    "C2H4-C2H4": {
+        "dimer": {"nfzc": 4},
+        "monomer1": {"nfzc": 2},
+        "monomer2": {"nfzc": 2},
+    },
+    "C2H4-CH4": {
+        "dimer": {"nfzc": 3},
+        "monomer1": {"nfzc": 1},
+        "monomer2": {"nfzc": 2},
+    },
+    "BH3-CH4": {
+        "dimer": {"nfzc": 2},
+        "monomer1": {"nfzc": 1},
+        "monomer2": {"nfzc": 1},
+    },
+    "C2H6-CH4": {
+        "dimer": {"nfzc": 3},
+        "monomer1": {"nfzc": 2},
+        "monomer2": {"nfzc": 1},
+    },
+    "C2H6-CH4-C3": {
+        "dimer": {"nfzc": 3},
+        "monomer1": {"nfzc": 2},
+        "monomer2": {"nfzc": 1},
+    },
+    "CH4-CH4": {
+        "dimer": {"nfzc": 2},
+        "monomer1": {"nfzc": 1},
+        "monomer2": {"nfzc": 1},
+    },
+    "CH4-Ar": {
+        "dimer": {"nfzc": 6},
+        "monomer1": {"nfzc": 5},
+        "monomer2": {"nfzc": 1},
+    },
+    "C2H4-Ar": {
+        "dimer": {"nfzc": 7},
+        "monomer1": {"nfzc": 5},
+        "monomer2": {"nfzc": 2},
+    },
+    "C2H4-C2H2": {
+        "dimer": {"nfzc": 4},
+        "monomer1": {"nfzc": 2},
+        "monomer2": {"nfzc": 2},
+    },
+    "C2H4-C2H4-D2h": {
+        "dimer": {"nfzc": 4},
+        "monomer1": {"nfzc": 2},
+        "monomer2": {"nfzc": 2},
+    },
+    "C2H2-C2H2-D2h": {
+        "dimer": {"nfzc": 4},
+        "monomer1": {"nfzc": 2},
+        "monomer2": {"nfzc": 2},
+    },
+}
