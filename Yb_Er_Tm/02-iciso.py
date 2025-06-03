@@ -40,10 +40,11 @@ def OrbSymInfo(Mol, mo_coeff):
 
 if __name__ == "__main__":
 
-    ICISO_APP = ""
+    ICISO_APP = "/home/ningzhang1024sdu/GithubRepo/iCIPT2_CXX/bin/iCI_CPP_NEW.exe"
 
     BASIS = ["ano-rcc", "cc-pvtz-dk", "cc-pvqz-dk"]
-
+    # BASIS = ["cc-pvdz-dk"]  # for test
+    
     for basis in BASIS:
 
         print(
@@ -212,7 +213,7 @@ if __name__ == "__main__":
         ]
 
         print(_generate_task_spinarray_weight(state)[0])
-        task_name = "Tm_minmal_cas_%s" % (basis)
+        task_name = "Er_minmal_cas_%s" % (basis)
         task_str = _generate_task_spinarray_weight(state)[0]
         nelec_val = 11
         segment = "%d 0 3 4 0 %d" % (
@@ -238,4 +239,8 @@ if __name__ == "__main__":
             1,
             "d2h",
             0,
+        )
+
+        os.system(
+            "%s %s.inp 1>%s.out 2>%s.err" % (ICISO_APP, task_name, task_name, task_name)
         )

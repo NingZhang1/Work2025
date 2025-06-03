@@ -8,7 +8,7 @@ from pyscf_util.File import file_cmoao
 from pyscf_util.File import file_sodkh13
 from pyscf_util.Relativisitc.sfX2C_soDKH import *
 from pyscf import data
-
+from pyscf_util.Integrals.integral_sfX2C import fcidump_sfx2c
 
 def build_dm1(nao, nelec_f, nelec_tot):
     ncore = (nelec_tot - nelec_f) // 2
@@ -36,7 +36,7 @@ def OrbSymInfo(Mol, mo_coeff):
 
 if __name__ == "__main__":
 
-    BASIS = ["ano-rcc", "cc-pvtz-dk", "cc-pvqz-dk", "cc-pv5z-dk"]
+    BASIS = ["ano-rcc", "cc-pvtz-dk", "cc-pvqz-dk"]
     # BASIS = ["cc-pvdz-dk"]  # for test
 
     for basis in BASIS:
@@ -76,7 +76,8 @@ if __name__ == "__main__":
 
         orbsym = OrbSymInfo(Mol, mo_coeff)
         DumpFileName = "FCIDUMP_Yb_%s" % (basis)
-        fcidump.from_mo(Mol, DumpFileName, mo_coeff, orbsym, tol=1e-12)
+        # fcidump.from_mo(Mol, DumpFileName, mo_coeff, orbsym, tol=1e-12)
+        fcidump_sfx2c(Mol, SCF, mo_coeff, DumpFileName, 1e-12)
         file_sodkh13.Dump_Relint_iCI("RELDUMP_Yb_%s" % (basis), hso, Mol.nao)
 
         # build Tm #
@@ -109,7 +110,8 @@ if __name__ == "__main__":
 
         orbsym = OrbSymInfo(Mol, mo_coeff)
         DumpFileName = "FCIDUMP_Tm_%s" % (basis)
-        fcidump.from_mo(Mol, DumpFileName, mo_coeff, orbsym, tol=1e-12)
+        # fcidump.from_mo(Mol, DumpFileName, mo_coeff, orbsym, tol=1e-12)
+        fcidump_sfx2c(Mol, SCF, mo_coeff, DumpFileName, 1e-12)
         file_sodkh13.Dump_Relint_iCI("RELDUMP_Tm_%s" % (basis), hso, Mol.nao)
 
         # build Er #
@@ -142,5 +144,6 @@ if __name__ == "__main__":
 
         orbsym = OrbSymInfo(Mol, mo_coeff)
         DumpFileName = "FCIDUMP_Er_%s" % (basis)
-        fcidump.from_mo(Mol, DumpFileName, mo_coeff, orbsym, tol=1e-12)
+        # fcidump.from_mo(Mol, DumpFileName, mo_coeff, orbsym, tol=1e-12)
+        fcidump_sfx2c(Mol, SCF, mo_coeff, DumpFileName, 1e-12)
         file_sodkh13.Dump_Relint_iCI("RELDUMP_Er_%s" % (basis), hso, Mol.nao)

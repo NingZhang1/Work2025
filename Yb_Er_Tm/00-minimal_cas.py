@@ -33,7 +33,7 @@ cas_space_symmetry = {
 
 if __name__ == "__main__":
 
-    BASIS = ["ano-rcc", "cc-pvtz-dk", "cc-pvqz-dk", "cc-pv5z-dk"]
+    BASIS = ["ano-rcc", "cc-pvtz-dk", "cc-pvqz-dk"]
     # BASIS = ["cc-pvdz-dk"]  # for test
 
     for basis in BASIS:
