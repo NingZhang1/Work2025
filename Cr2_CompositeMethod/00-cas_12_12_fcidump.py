@@ -122,4 +122,4 @@ Cr     0.0000      0.0000  -%f
 
         orbsym = OrbSymInfo(Mol, CASSCF_Driver.mo_coeff)
 
-        # fcidump.from_mo(Mol, DumpFileName, CASSCF_Driver.mo_coeff, orbsym) # not correct ! 
+        # fcidump.from_mo(Mol, DumpFileName, CASSCF_Driver.mo_coeff, orbsym) # not correct !
