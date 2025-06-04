@@ -10,6 +10,7 @@ from pyscf_util.Relativisitc.sfX2C_soDKH import *
 from pyscf import data
 from pyscf_util.Integrals.integral_sfX2C import fcidump_sfx2c
 
+
 def build_dm1(nao, nelec_f, nelec_tot):
     ncore = (nelec_tot - nelec_f) // 2
     res = numpy.zeros((nao, nao))
