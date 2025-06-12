@@ -22,19 +22,19 @@ def OrbSymInfo(Mol, mo_coeff):
 
 
 cas_space_symmetry = {
-    "f+3": 1,
-    "f+2": 1,
-    "f+1": 1,
-    "f0": 1,
-    "f-1": 1,
-    "f-2": 1,
-    "f-3": 1,
+    "f+3": 2,
+    "f+2": 2,
+    "f+1": 2,
+    "f0": 2,
+    "f-1": 2,
+    "f-2": 2,
+    "f-3": 2,
 }
 
 if __name__ == "__main__":
 
-    BASIS = ["ano-rcc", "cc-pvtz-dk", "cc-pvqz-dk"]
-    # BASIS = ["cc-pvdz-dk"]  # for test
+    # BASIS = ["ano-rcc", "cc-pvtz-dk", "cc-pvqz-dk"]
+    BASIS = ["cc-pvdz-dk"]  # for test
 
     for basis in BASIS:
 
@@ -106,7 +106,9 @@ if __name__ == "__main__":
         SCF.conv_tol = 5e-12
         SCF.mo_coeff = mo_coeff
 
-        norb = 7
+        mo_coeff = file_cmoao.ReadIn_Cmoao("Yb_%s" % (basis), Mol.nao, Mol.nao)
+
+        norb = 7 * 2
         nelec = 13
         CASSCF_Driver = pyscf.mcscf.CASSCF(SCF, norb, nelec)
         mo_init = pyscf.mcscf.sort_mo_by_irrep(
@@ -146,7 +148,9 @@ if __name__ == "__main__":
         for i, ene in enumerate(mo_energy):
             print("%4d %15.8f" % (i, ene))
 
-        file_cmoao.Dump_Cmoao("Yb_%s" % (basis), mo_coeff)
+        file_cmoao.Dump_Cmoao("Yb_double_f_%s" % (basis), mo_coeff)
+
+        # exit(1)
 
         # dump fci #
 
@@ -213,8 +217,10 @@ if __name__ == "__main__":
         SCF.max_cycle = 32
         SCF.conv_tol = 5e-12
         SCF.mo_coeff = mo_coeff
+        
+        mo_coeff = file_cmoao.ReadIn_Cmoao("Tm_%s" % (basis), Mol.nao, Mol.nao)
 
-        norb = 7
+        norb = 7 * 2
         nelec = 12
         CASSCF_Driver = pyscf.mcscf.CASSCF(SCF, norb, nelec)
         mo_init = pyscf.mcscf.sort_mo_by_irrep(
@@ -260,7 +266,7 @@ if __name__ == "__main__":
         for i, ene in enumerate(mo_energy):
             print("%4d %15.8f" % (i, ene))
 
-        file_cmoao.Dump_Cmoao("Tm_%s" % (basis), mo_coeff)
+        file_cmoao.Dump_Cmoao("Tm_double_f_%s" % (basis), mo_coeff)
 
         # exit(1)
 
@@ -323,7 +329,9 @@ if __name__ == "__main__":
         SCF.conv_tol = 5e-12
         SCF.mo_coeff = mo_coeff
 
-        norb = 7
+        mo_coeff = file_cmoao.ReadIn_Cmoao("Er_%s" % (basis), Mol.nao, Mol.nao)
+        
+        norb = 7 * 2
         nelec = 11
         CASSCF_Driver = pyscf.mcscf.CASSCF(SCF, norb, nelec)
         mo_init = pyscf.mcscf.sort_mo_by_irrep(
@@ -352,25 +360,25 @@ if __name__ == "__main__":
             tol=1e-12,
             state=[
                 # 2S+1 = 4 4I + 4F + 4S + 4G
-                [3, 4, 4 + 1 + 1, [1, 1, 1, 1, 1, 1]],
-                [3, 5, 3 + 2, [1, 1, 1, 1, 1]],
-                [3, 6, 3 + 2, [1, 1, 1, 1, 1]],
-                [3, 7, 3 + 2, [1, 1, 1, 1, 1]],
+                [3, 4, 4 + 1 + 1 + 3, [1, 1, 1, 1, 1, 1]],
+                [3, 5, 3 + 2 + 2, [1, 1, 1, 1, 1]],
+                [3, 6, 3 + 2 + 2, [1, 1, 1, 1, 1]],
+                [3, 7, 3 + 2 + 2, [1, 1, 1, 1, 1]],
                 # [3, 4, 4, [1, 1, 1, 1]],
                 # [3, 5, 3, [1, 1, 1]],
                 # [3, 6, 3, [1, 1, 1]],
                 # [3, 7, 3, [1, 1, 1]],
                 # 2S+1 = 2 2H + 2F
-                # [1, 4, 2 + 1, [1, 1, 1]],
-                # [1, 5, 3 + 2, [1, 1, 1, 1, 1]],
-                # [1, 6, 3 + 2, [1, 1, 1, 1, 1]],
-                # [1, 7, 3 + 2, [1, 1, 1, 1, 1]],
+                [1, 4, 2 + 1, [1, 1, 1]],
+                [1, 5, 3 + 2, [1, 1, 1, 1, 1]],
+                [1, 6, 3 + 2, [1, 1, 1, 1, 1]],
+                [1, 7, 3 + 2, [1, 1, 1, 1, 1]],
             ],
         )
 
         energy, _, _, mo_coeff, mo_energy = iCISCF_driver.kernel(mo_coeff=mo_init)
 
-        file_cmoao.Dump_Cmoao("Er_%s" % (basis), mo_coeff)
+        file_cmoao.Dump_Cmoao("Er_double_f_%s" % (basis), mo_coeff)
 
         for i, ene in enumerate(mo_energy):
             print("%4d %15.8f" % (i, ene))
