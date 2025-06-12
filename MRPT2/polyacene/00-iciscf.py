@@ -51,6 +51,10 @@ if __name__ == "__main__":
         SCF = pyscf.scf.RHF(Mol)
         SCF.kernel()
         mo_coeff = SCF.mo_coeff
+        
+        # SCF.analyze()
+        
+        # exit(1)
 
         CMIN = 0.0
         _mc_conv_tol = 1e-7
@@ -61,6 +65,8 @@ if __name__ == "__main__":
             _mc_conv_tol = 1e-6
             do_internal_rotation = True
 
+        # print(task_info["NACT"])
+
         iciscf_res = kernel(
             Mol,
             SCF,
@@ -68,6 +74,7 @@ if __name__ == "__main__":
             nact,
             _mo_init=mo_coeff,
             _cas_list=task_info["NACT"],
+            _core_list=task_info["NFZC"],
             _mc_conv_tol=_mc_conv_tol,
             _ici_state=[[task_info["unpair"], irrep_id, 1]],
             _cmin=CMIN,
