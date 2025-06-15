@@ -2,7 +2,7 @@ from pyscf_util.misc._parse_bdf_optgeom import *
 from pyscf_util.misc._parse_bdf_chkfil import *
 from pyscf_util.misc._parse_bdf_orbfile import *
 import os
-from pyscf import gto, scf, mcscf
+from pyscf import gto, scf, mcscf, tools
 from pyscf_util.misc.interface_BDF import *
 from pyscf_util.File.file_cmoao import *
 
@@ -56,7 +56,7 @@ if __name__ == "__main__":
 
         output_fch = f"tmp.fch"
         output_fch_new = f"tmp_new.fch"
-        output_scforb = f"{sub_task_name}_new.scforb"
+        output_scforb = f"{sub_task_name}_new.casorb"
 
         mo_coeffs_bdf = convert_bdf_to_pyscf(
             mol,
@@ -89,8 +89,15 @@ if __name__ == "__main__":
 
         print(orbsym)
 
+        # ncore = (mol.nelectron - nact_elec) // 2
+        # print(orbsym[:ncore])
+        # print(orbsym[ncore : ncore + nact])
+        # # print(orbsym[ncore + nact :])
+
         ## dump cmoao ##
 
         Dump_Cmoao(
             "cas_%d_%d_%s_cmoao" % (nact_elec, nact, sub_task_name), mo_coeffs_bdf
         )
+
+        # tools.molden.from_mo(mol, "tmp.molden", mo_coeffs_bdf, symm=orbsym)
