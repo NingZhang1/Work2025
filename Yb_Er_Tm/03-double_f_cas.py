@@ -217,7 +217,7 @@ if __name__ == "__main__":
         SCF.max_cycle = 32
         SCF.conv_tol = 5e-12
         SCF.mo_coeff = mo_coeff
-        
+
         mo_coeff = file_cmoao.ReadIn_Cmoao("Tm_%s" % (basis), Mol.nao, Mol.nao)
 
         norb = 7 * 2
@@ -330,7 +330,7 @@ if __name__ == "__main__":
         SCF.mo_coeff = mo_coeff
 
         mo_coeff = file_cmoao.ReadIn_Cmoao("Er_%s" % (basis), Mol.nao, Mol.nao)
-        
+
         norb = 7 * 2
         nelec = 11
         CASSCF_Driver = pyscf.mcscf.CASSCF(SCF, norb, nelec)
