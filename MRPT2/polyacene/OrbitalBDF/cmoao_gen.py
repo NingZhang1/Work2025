@@ -63,7 +63,9 @@ if __name__ == "__main__":
 
         # Read molecular geometry from optgeom file
         mol_geometry = parse_geometry(optgeom_file)
-        mol = gto.M(atom=mol_geometry, basis="ccpvtz", verbose=4, symmetry="d2h", unit="bohr")
+        mol = gto.M(
+            atom=mol_geometry, basis="ccpvtz", verbose=4, symmetry="d2h", unit="bohr"
+        )
         mol.build()
 
         mf = pyscf.scf.RHF(mol)
@@ -97,7 +99,9 @@ if __name__ == "__main__":
 
         print("Symmetry and orthogonality check passed.")
 
-        orbsym = pyscf.symm.label_orb_symm(mol, mol.irrep_name, mol.symm_orb, mo_coeffs_bdf)
+        orbsym = pyscf.symm.label_orb_symm(
+            mol, mol.irrep_name, mol.symm_orb, mo_coeffs_bdf
+        )
 
         # for irrep in range(len(mol.irrep_name)):
         #     print(f"Irrep {mol.irrep_name[irrep]} has {np.sum(orbsym == irrep)} orbitals.")
@@ -105,7 +109,7 @@ if __name__ == "__main__":
         print(orbsym)
 
         # os.system("rm %s" % output_fch)
-        # os.system("rm %s" % output_fch_new)        
+        # os.system("rm %s" % output_fch_new)
 
         ## dump cmoao ##
 
