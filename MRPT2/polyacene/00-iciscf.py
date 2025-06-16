@@ -51,9 +51,9 @@ if __name__ == "__main__":
         SCF = pyscf.scf.RHF(Mol)
         SCF.kernel()
         mo_coeff = SCF.mo_coeff
-        
+
         # SCF.analyze()
-        
+
         # exit(1)
 
         CMIN = 0.0
