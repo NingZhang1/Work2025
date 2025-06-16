@@ -62,18 +62,18 @@ if __name__ == "__main__":
         ## build mf ##
 
         mf = scf.RHF(mol)
-        
+
         ## build mcscf ##
 
-        #nact = int(task_name[:2]) * 4 + 2
-        #nact_elec = nact
+        # nact = int(task_name[:2]) * 4 + 2
+        # nact_elec = nact
         ncore = (mol.nelectron - nact_elec) // 2
         nvir = mol.nao - ncore - nact
-        
+
         CASSCF_Driver = pyscf.mcscf.CASSCF(mf, nact, nact_elec)
-        
+
         DumpFileName = f"FCIDUMP_{dir_name}_{sub_task_name}_casci"
-        
+
         dump_heff_casci(
             mol,
             CASSCF_Driver,
@@ -81,7 +81,8 @@ if __name__ == "__main__":
             cmoao[:, ncore : ncore + nact],
             DumpFileName,
         )
-        
+
+        # exit(1)
 
     for dir_name, sub_task_name, casorb_file in task_info:
 
@@ -103,8 +104,8 @@ if __name__ == "__main__":
 
         ## build mcscf ##
 
-        #nact = int(task_name[:2]) * 4 + 2
-        #nact_elec = nact
+        # nact = int(task_name[:2]) * 4 + 2
+        # nact_elec = nact
         ncore = (mol.nelectron - nact_elec) // 2
         nvir = mol.nao - ncore - nact
 
